@@ -1206,3 +1206,23 @@ Missing minecraft:entity_type:
 [09Dec2024 20:57:28.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LaViejaDeAgustin has made the advancement [Amateur Archaeologist]
 [09Dec2024 20:57:30.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LaViejaDeAgustin has made the advancement [Ice Bucket Challenge]
 [09Dec2024 20:57:45.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaaa has made the advancement [Ice Bucket Challenge]
+[09Dec2024 20:59:03.944] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
+[09Dec2024 20:59:04.610] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-176, y=-50, z=-133}
+[09Dec2024 20:59:04.626] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-172, y=-50, z=-135}
+[09Dec2024 20:59:12.591] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-187, y=-46, z=-151}
+[09Dec2024 20:59:12.592] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-187, y=-46, z=-143}
+[09Dec2024 20:59:12.592] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-185, y=-46, z=-142}
+[09Dec2024 21:00:39.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> mira esto
+[09Dec2024 21:00:44.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xGab has made the advancement [Amateur Archaeologist]
+[09Dec2024 21:01:12.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> es como un amuleto
+[09Dec2024 21:01:22.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> despues de comer minas mas rapido
+[09Dec2024 21:03:03.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> si mal no estoy
+[09Dec2024 21:03:11.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> por hoy sera hasta las 19 arg
+[09Dec2024 21:03:17.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> porque le sumaron 2 horas mas
+[09Dec2024 21:07:04.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> si
+[09Dec2024 21:07:07.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> pero no en la base
+[09Dec2024 21:07:10.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> yes
+[09Dec2024 21:07:30.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> como?
+[09Dec2024 21:07:40.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> heno
+[09Dec2024 21:07:49.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> paja
+[09Dec2024 21:08:03.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaaa has made the advancement [Sweet Dreams]
