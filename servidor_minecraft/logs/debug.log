@@ -6189,3 +6189,41 @@ Missing minecraft:entity_type:
 [09Dec2024 19:47:53.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> tengo alma de golme
 [09Dec2024 19:47:55.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> golem
 [09Dec2024 19:47:59.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> de que sirve?
+[09Dec2024 19:48:20.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> despues hagan evento pero con terraria
+[09Dec2024 19:48:27.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> facs
+[09Dec2024 19:48:31.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Remolach0 has made the advancement [Getting an Upgrade]
+[09Dec2024 19:48:33.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Applied effect Haste to LaViejaDeAgustin]
+[09Dec2024 19:48:40.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Applied effect Haste to genaaa]
+[09Dec2024 19:49:11.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Removed every effect from 5 targets]
+[09Dec2024 19:49:31.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Applied effect Night Vision to LaViejaDeAgustin]
+[09Dec2024 19:49:38.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Applied effect Fire Resistance to LaViejaDeAgustin]
+[09Dec2024 19:49:42.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Applied effect Night Vision to LaViejaDeAgustin]
+[09Dec2024 19:49:44.988] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo
+[09Dec2024 19:49:45.000] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo
+[09Dec2024 19:49:45.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Applied effect Fire Resistance to LaViejaDeAgustin]
+[09Dec2024 19:49:59.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Applied effect Water Breathing to LaViejaDeAgustin]
+[09Dec2024 19:50:08.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Applied effect Resistance to LaViejaDeAgustin]
+[09Dec2024 19:50:13.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Applied effect Resistance to LaViejaDeAgustin]
+[09Dec2024 19:50:19.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Applied effect Resistance to genaaa]
+[09Dec2024 19:50:36.073] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/6299, l='ServerLevel[Mundo nuevo]', x=-907.23, y=63.00, z=-269.45] died, message: 'Villager was slain by Remolach0'
+[09Dec2024 19:50:41.890] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Applied effect Water Breathing to genaaa]
+[09Dec2024 19:50:51.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Applied effect Fire Resistance to genaaa]
+[09Dec2024 19:50:57.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> es un amigo mio
+[09Dec2024 19:51:01.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Applied effect Night Vision to genaaa]
+[09Dec2024 19:51:49.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Applied effect Night Vision to Remolach0]
+[09Dec2024 19:51:54.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Applied effect Night Vision to xGab]
+[09Dec2024 19:52:14.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> si
+[09Dec2024 19:52:23.425] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> si
+[09Dec2024 19:52:28.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Applied effect Speed to xGab]
+[09Dec2024 19:52:36.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Applied effect Speed to Remolach0]
+[09Dec2024 19:52:44.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Applied effect Hunger to Remolach0]
+[09Dec2024 19:52:52.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Applied effect Hunger to xGab]
+[09Dec2024 19:53:21.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Teleported hola7 to xGab]
+[09Dec2024 19:54:45.042] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo
+[09Dec2024 19:54:45.074] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo
+[09Dec2024 19:54:50.997] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-918, y=64, z=-279} BlockPos{x=-916, y=62, z=-281}
+[09Dec2024 19:54:51.055] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-918, y=64, z=-279} BlockPos{x=-916, y=62, z=-281}
+[09Dec2024 19:56:58.890] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaaa has made the advancement [Tunnel Treasures]
+[09Dec2024 19:57:13.852] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaaa has made the advancement [Amateur Archaeologist]
+[09Dec2024 19:57:59.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> creo que si hacen
+[09Dec2024 19:58:12.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> en una de esas me tire al agua a recojer el agua y uno me trackeo
