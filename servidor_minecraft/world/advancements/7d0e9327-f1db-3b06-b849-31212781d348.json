@@ -1933,6 +1933,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2024-12-09 21:45:59 +0000"
+    },
+    "done": true
+  },
   "vampirism:vampire/become_vampire": {
     "criteria": {
       "main": "2024-12-09 20:38:05 +0000"
@@ -2603,6 +2609,12 @@
   "minecraft:recipes/combat/golden_leggings": {
     "criteria": {
       "has_gold_ingot": "2024-12-09 20:27:21 +0000"
+    },
+    "done": true
+  },
+  "vampirism:recipes/decorations/hunter/potion_table": {
+    "criteria": {
+      "has_glass_bottle": "2024-12-09 21:39:10 +0000"
     },
     "done": true
   },
