@@ -1,0 +1,186 @@
+{
+  "casinocraft:recipes/decorations/wool_red": {
+    "criteria": {
+      "has_wool": "2024-12-09 19:22:55 +0000"
+    },
+    "done": true
+  },
+  "vampirism:recipes/decorations/vampire/coffin_yellow": {
+    "criteria": {
+      "has_wool": "2024-12-09 19:22:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2024-12-09 19:22:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-12-09 19:20:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_bed": {
+    "criteria": {
+      "has_yellow_wool": "2024-12-09 19:22:54 +0000"
+    },
+    "done": true
+  },
+  "casinocraft:recipes/decorations/wool_blue": {
+    "criteria": {
+      "has_wool": "2024-12-09 19:22:50 +0000"
+    },
+    "done": true
+  },
+  "lootr:root": {
+    "criteria": {
+      "always_true": "2024-12-09 19:20:04 +0000"
+    },
+    "done": true
+  },
+  "casinocraft:recipes/decorations/wool_lime": {
+    "criteria": {
+      "has_wool": "2024-12-09 19:22:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_bed": {
+    "criteria": {
+      "has_lime_wool": "2024-12-09 19:22:58 +0000"
+    },
+    "done": true
+  },
+  "cataclysm:root": {
+    "criteria": {
+      "custom_test_name": "2024-12-09 19:20:04 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/root": {
+    "criteria": {
+      "tick": "2024-12-09 19:20:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_carpet": {
+    "criteria": {
+      "has_red_wool": "2024-12-09 19:22:55 +0000"
+    },
+    "done": true
+  },
+  "vampirism:recipes/decorations/vampire/coffin_blue": {
+    "criteria": {
+      "has_wool": "2024-12-09 19:22:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_banner": {
+    "criteria": {
+      "has_red_wool": "2024-12-09 19:22:55 +0000"
+    },
+    "done": true
+  },
+  "vampirism:recipes/decorations/vampire/coffin_lime": {
+    "criteria": {
+      "has_wool": "2024-12-09 19:22:58 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:wda_root": {
+    "criteria": {
+      "WDA": "2024-12-09 19:20:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_bed": {
+    "criteria": {
+      "has_blue_wool": "2024-12-09 19:22:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_carpet": {
+    "criteria": {
+      "has_lime_wool": "2024-12-09 19:22:58 +0000"
+    },
+    "done": true
+  },
+  "vampirism:recipes/decorations/vampire/coffin_red": {
+    "criteria": {
+      "has_wool": "2024-12-09 19:22:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_carpet": {
+    "criteria": {
+      "has_blue_wool": "2024-12-09 19:22:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_banner": {
+    "criteria": {
+      "has_yellow_wool": "2024-12-09 19:22:54 +0000"
+    },
+    "done": true
+  },
+  "casinocraft:recipes/decorations/wool_yellow": {
+    "criteria": {
+      "has_wool": "2024-12-09 19:22:54 +0000"
+    },
+    "done": true
+  },
+  "artifacts:amateur_archaeologist": {
+    "criteria": {
+      "find_artifact": "2024-12-09 19:23:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2024-12-09 19:20:06 +0000",
+      "minecraft:river": "2024-12-09 19:22:25 +0000",
+      "minecraft:stony_shore": "2024-12-09 19:20:18 +0000",
+      "minecraft:forest": "2024-12-09 19:22:07 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/yellow_carpet": {
+    "criteria": {
+      "has_yellow_wool": "2024-12-09 19:22:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_banner": {
+    "criteria": {
+      "has_blue_wool": "2024-12-09 19:22:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_banner": {
+    "criteria": {
+      "has_lime_wool": "2024-12-09 19:22:58 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/dragon_egg": {
+    "criteria": {
+      "egg": "2024-12-09 19:23:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_bed": {
+    "criteria": {
+      "has_red_wool": "2024-12-09 19:22:55 +0000"
+    },
+    "done": true
+  },
+  "vampirism:recipes/decorations/item_tent": {
+    "criteria": {
+      "has_wool": "2024-12-09 19:22:50 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}
