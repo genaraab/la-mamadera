@@ -1138,6 +1138,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2024-12-09 22:37:01 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/building_blocks/secret_birch_sign_item": {
     "criteria": {
       "has_sign": "2024-12-09 22:06:01 +0000"
@@ -1165,6 +1171,18 @@
   "minecraft:recipes/combat/diamond_chestplate": {
     "criteria": {
       "has_diamond": "2024-12-09 22:19:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2024-12-09 22:37:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2024-12-09 22:37:01 +0000"
     },
     "done": true
   },
@@ -1318,11 +1336,23 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2024-12-09 22:37:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
       "minecraft:sheep": "2024-12-09 22:08:41 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2024-12-09 22:37:01 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/combat/diamond_helmet": {
     "criteria": {
@@ -1345,6 +1375,12 @@
   "securitycraft:recipes/building_blocks/secret_spruce_sign_item": {
     "criteria": {
       "has_sign": "2024-12-09 22:06:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2024-12-09 22:40:45 +0000"
     },
     "done": true
   },
