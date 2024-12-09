@@ -407,6 +407,12 @@
     },
     "done": true
   },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_helmet": "2024-12-09 21:36:24 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/stick": {
     "criteria": {
       "has_planks": "2024-12-09 19:54:56 +0000"
@@ -779,6 +785,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2024-12-09 21:31:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/compass": {
     "criteria": {
       "has_redstone": "2024-12-09 20:00:53 +0000"
@@ -956,6 +968,12 @@
   "iceandfire:recipes/combat/dragonarmor_silver_tail": {
     "criteria": {
       "has_item": "2024-12-09 19:26:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_glazed_terracotta": {
+    "criteria": {
+      "has_cyan_terracotta": "2024-12-09 21:27:09 +0000"
     },
     "done": true
   },
@@ -1466,6 +1484,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:beach": "2024-12-09 19:20:06 +0000",
+      "minecraft:sparse_jungle": "2024-12-09 21:35:45 +0000",
       "minecraft:river": "2024-12-09 19:22:25 +0000",
       "minecraft:stony_shore": "2024-12-09 19:20:18 +0000",
       "minecraft:forest": "2024-12-09 19:22:07 +0000",
