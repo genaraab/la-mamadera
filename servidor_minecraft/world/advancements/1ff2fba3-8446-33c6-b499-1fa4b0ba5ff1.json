@@ -5,15 +5,43 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/cherry_boat": {
-    "criteria": {
-      "in_water": "2024-12-09 22:39:13 +0000"
-    },
-    "done": true
-  },
   "lootr:root": {
     "criteria": {
       "always_true": "2024-12-09 22:37:52 +0000"
+    },
+    "done": true
+  },
+  "cataclysm:root": {
+    "criteria": {
+      "custom_test_name": "2024-12-09 22:37:52 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/root": {
+    "criteria": {
+      "tick": "2024-12-09 22:37:52 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:wda_root": {
+    "criteria": {
+      "WDA": "2024-12-09 22:37:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:mushroom_fields": "2024-12-09 22:50:24 +0000",
+      "minecraft:beach": "2024-12-09 22:37:53 +0000",
+      "minecraft:river": "2024-12-09 22:39:20 +0000",
+      "minecraft:stony_shore": "2024-12-09 22:39:09 +0000",
+      "minecraft:deep_lukewarm_ocean": "2024-12-09 22:56:53 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2024-12-09 22:39:13 +0000"
     },
     "done": true
   },
@@ -47,27 +75,9 @@
     },
     "done": true
   },
-  "cataclysm:root": {
-    "criteria": {
-      "custom_test_name": "2024-12-09 22:37:52 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:iceandfire/root": {
-    "criteria": {
-      "tick": "2024-12-09 22:37:52 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/mangrove_boat": {
     "criteria": {
       "in_water": "2024-12-09 22:39:13 +0000"
-    },
-    "done": true
-  },
-  "dungeons_arise:wda_root": {
-    "criteria": {
-      "WDA": "2024-12-09 22:37:52 +0000"
     },
     "done": true
   },
@@ -83,20 +93,6 @@
     },
     "done": true
   },
-  "minecraft:adventure/root": {
-    "criteria": {
-      "killed_by_something": "2024-12-09 22:40:45 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:beach": "2024-12-09 22:37:53 +0000",
-      "minecraft:river": "2024-12-09 22:39:20 +0000",
-      "minecraft:stony_shore": "2024-12-09 22:39:09 +0000"
-    },
-    "done": false
-  },
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "in_water": "2024-12-09 22:39:13 +0000"
@@ -106,6 +102,12 @@
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
       "in_water": "2024-12-09 22:39:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2024-12-09 22:40:45 +0000"
     },
     "done": true
   },

@@ -2637,6 +2637,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/raw_gold": {
+    "criteria": {
+      "has_raw_gold_block": "2024-12-09 22:48:45 +0000"
+    },
+    "done": true
+  },
   "vampirism:recipes/combat/vampire/heart_striker_enhanced_repair": {
     "criteria": {
       "has_heart_striker": "2024-12-09 22:21:34 +0000"
@@ -2697,6 +2703,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2024-12-09 22:47:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/gold_block": {
     "criteria": {
       "has_gold_ingot": "2024-12-09 22:24:33 +0000"
@@ -2724,6 +2736,18 @@
   "minecraft:recipes/tools/golden_hoe": {
     "criteria": {
       "has_gold_ingot": "2024-12-09 22:24:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2024-12-09 22:48:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2024-12-09 22:48:56 +0000"
     },
     "done": true
   },
