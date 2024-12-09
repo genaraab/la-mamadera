@@ -1126,5 +1126,23 @@
     },
     "done": true
   },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2024-12-09 21:59:57 +0000"
+    },
+    "done": true
+  },
+  "vampirism:recipes/food/general/garlic_bread": {
+    "criteria": {
+      "has_bread": "2024-12-09 21:59:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "bread": "2024-12-09 21:59:57 +0000"
+    },
+    "done": false
+  },
   "DataVersion": 3465
 }

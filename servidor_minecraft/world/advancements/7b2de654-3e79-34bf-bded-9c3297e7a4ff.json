@@ -2714,6 +2714,12 @@
     },
     "done": true
   },
+  "vampirism:recipes/combat/leather_from_obi_belt": {
+    "criteria": {
+      "has_obi_belt": "2024-12-09 21:39:22 +0000"
+    },
+    "done": true
+  },
   "vampirism:vampire/blood_cult": {
     "criteria": {
       "main": "2024-12-09 21:39:49 +0000"
@@ -2755,12 +2761,6 @@
       "main": "2024-12-09 21:39:49 +0000"
     },
     "done": false
-  },
-  "vampirism:recipes/combat/leather_from_obi_belt": {
-    "criteria": {
-      "has_obi_belt": "2024-12-09 21:39:22 +0000"
-    },
-    "done": true
   },
   "vampirism:vampire/become_vampire": {
     "criteria": {
