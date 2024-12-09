@@ -59,6 +59,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2024-12-09 21:15:20 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_leggings": {
     "criteria": {
       "has_iron_ingot": "2024-12-09 19:37:57 +0000"
@@ -94,6 +100,12 @@
       "main": "2024-12-09 20:38:05 +0000"
     },
     "done": false
+  },
+  "artifacts:chest_slayer": {
+    "criteria": {
+      "kill_mimic": "2024-12-09 21:19:33 +0000"
+    },
+    "done": true
   },
   "iceandfire:recipes/misc/dragon_meal": {
     "criteria": {
@@ -167,6 +179,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dark_oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-12-09 21:11:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_nugget_from_smelting": {
     "criteria": {
       "has_iron_pickaxe": "2024-12-09 19:46:17 +0000"
@@ -233,6 +251,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dark_oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-12-09 21:11:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/oak_sign": {
     "criteria": {
       "has_planks": "2024-12-09 19:40:07 +0000"
@@ -254,6 +278,12 @@
   "minecraft:recipes/tools/golden_pickaxe": {
     "criteria": {
       "has_gold_ingot": "2024-12-09 20:27:21 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2024-12-09 21:06:47 +0000"
     },
     "done": true
   },
@@ -684,6 +714,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dark_oak_button": {
+    "criteria": {
+      "has_planks": "2024-12-09 21:11:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/shears": {
     "criteria": {
       "has_iron_ingot": "2024-12-09 19:37:57 +0000"
@@ -717,6 +753,12 @@
   "securitycraft:recipes/misc/reinforced_jungle_fence": {
     "criteria": {
       "has_stick": "2024-12-09 19:40:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2024-12-09 21:06:47 +0000"
     },
     "done": true
   },
@@ -1026,6 +1068,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2024-12-09 21:06:32 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/birch_boat": {
     "criteria": {
       "in_water": "2024-12-09 19:36:39 +0000"
@@ -1047,6 +1095,12 @@
   "minecraft:recipes/tools/diamond_hoe": {
     "criteria": {
       "has_diamond": "2024-12-09 20:05:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_stairs": {
+    "criteria": {
+      "has_planks": "2024-12-09 21:11:48 +0000"
     },
     "done": true
   },
@@ -1188,9 +1242,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dark_oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-12-09 21:11:48 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/misc/security_camera": {
     "criteria": {
       "has_iron": "2024-12-09 19:37:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_fence": {
+    "criteria": {
+      "has_planks": "2024-12-09 21:11:48 +0000"
     },
     "done": true
   },
@@ -1230,6 +1296,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dark_oak_slab": {
+    "criteria": {
+      "has_planks": "2024-12-09 21:11:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/mangrove_boat": {
     "criteria": {
       "in_water": "2024-12-09 19:36:39 +0000"
@@ -1251,6 +1323,12 @@
   "minecraft:recipes/building_blocks/sandstone_stairs": {
     "criteria": {
       "has_sandstone": "2024-12-09 21:01:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_door": {
+    "criteria": {
+      "has_planks": "2024-12-09 21:11:48 +0000"
     },
     "done": true
   },
@@ -1278,6 +1356,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
+    "criteria": {
+      "has_amethyst_shard": "2024-12-09 21:06:47 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/misc/reinforced_cherry_fence": {
     "criteria": {
       "has_stick": "2024-12-09 19:40:43 +0000"
@@ -1299,6 +1383,12 @@
   "minecraft:recipes/decorations/iron_bars": {
     "criteria": {
       "has_iron_ingot": "2024-12-09 19:37:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2024-12-09 21:06:47 +0000"
     },
     "done": true
   },
@@ -1522,6 +1612,12 @@
   "minecraft:recipes/decorations/lantern": {
     "criteria": {
       "has_iron_ingot": "2024-12-09 19:37:57 +0000"
+    },
+    "done": true
+  },
+  "lootr:50loot": {
+    "criteria": {
+      "loot_stat": "2024-12-09 21:20:14 +0000"
     },
     "done": true
   },
@@ -2017,6 +2113,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2024-12-09 21:06:47 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/wooden_sword": {
     "criteria": {
       "has_stick": "2024-12-09 19:40:43 +0000"
@@ -2111,11 +2213,14 @@
     "criteria": {
       "minecraft:mushroom_fields": "2024-12-09 20:33:55 +0000",
       "minecraft:deep_ocean": "2024-12-09 20:25:13 +0000",
+      "minecraft:bamboo_jungle": "2024-12-09 21:23:38 +0000",
       "minecraft:beach": "2024-12-09 19:28:12 +0000",
+      "minecraft:sparse_jungle": "2024-12-09 21:15:49 +0000",
       "minecraft:lukewarm_ocean": "2024-12-09 20:58:07 +0000",
       "minecraft:river": "2024-12-09 19:36:43 +0000",
       "minecraft:stony_shore": "2024-12-09 19:29:02 +0000",
       "minecraft:forest": "2024-12-09 19:35:26 +0000",
+      "minecraft:lush_caves": "2024-12-09 21:21:54 +0000",
       "minecraft:ocean": "2024-12-09 19:30:11 +0000",
       "minecraft:deep_lukewarm_ocean": "2024-12-09 20:31:25 +0000",
       "minecraft:savanna": "2024-12-09 21:04:35 +0000",
@@ -2249,6 +2354,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "cooked_porkchop": "2024-12-09 21:06:32 +0000"
+    },
+    "done": false
+  },
   "securitycraft:recipes/misc/reinforced_dark_oak_fence": {
     "criteria": {
       "has_stick": "2024-12-09 19:40:43 +0000"
@@ -2330,6 +2441,12 @@
   "minecraft:recipes/tools/stone_hoe": {
     "criteria": {
       "has_cobblestone": "2024-12-09 19:40:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_sign": {
+    "criteria": {
+      "has_planks": "2024-12-09 21:11:48 +0000"
     },
     "done": true
   },
