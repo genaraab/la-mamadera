@@ -306,3 +306,46 @@
 [10Dec2024 18:27:08.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaaa has made the advancement [Blood Bank]
 [10Dec2024 18:28:36.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> esta en pacifico?
 [10Dec2024 18:28:41.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <genaaa> no
+[10Dec2024 18:29:20.894] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[10Dec2024 18:31:40.653] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2068ms or 41 ticks behind
+[10Dec2024 18:32:14.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaaa has made the advancement [Who You Gonna Call?]
+[10Dec2024 18:32:20.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz has made the advancement [Who You Gonna Call?]
+[10Dec2024 18:32:39.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaaa has made the advancement [Monster Hunter]
+[10Dec2024 18:33:02.339] [Server thread/WARN] [net.geforcemods.securitycraft.SecurityCraft/]: Player "genaaa" tried to enter a passcode into "Passcode-protected Chest" at position [ResourceKey[minecraft:dimension / minecraft:overworld] BlockPos{x=-219, y=72, z=-1097}] too quickly!
+[10Dec2024 18:33:10.738] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz was slain by Rana Gigante
+[10Dec2024 18:33:16.023] [Server thread/INFO] [journeymap/]: mp (FileLoaded) Setting config file to version "5.10.3": journeymap.server.mp.config
+[10Dec2024 18:33:16.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> lol
+[10Dec2024 18:33:28.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jhonnyxd0711> LOL
+[10Dec2024 18:33:36.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Added tag 'anim.muerte' to 6 entities]
+[10Dec2024 18:33:39.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jhonnyxd0711> gracias por jugar
+[10Dec2024 18:33:46.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> nos vemos en el gulag
+[10Dec2024 18:34:04.468] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> que dicen gente le doy otra oportunidad?
+[10Dec2024 18:34:12.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jhonnyxd0711> no
+[10Dec2024 18:34:15.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: After genaaa was slain by Ghost, they gave up
+[10Dec2024 18:34:18.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <genaaa> rana puta
+[10Dec2024 18:34:22.284] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> coño
+[10Dec2024 18:34:23.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Added tag 'anim.muerte' to 6 entities]
+[10Dec2024 18:34:26.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz was slain by Ghost
+[10Dec2024 18:34:27.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> emmm
+[10Dec2024 18:34:33.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <genaaa> bldoo es imposible con la rana
+[10Dec2024 18:34:35.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set joAcxz's game mode to Spectator Mode]
+[10Dec2024 18:34:39.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jhonnyxd0711> gracias por jugar
+[10Dec2024 18:34:40.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set genaaa's game mode to Spectator Mode]
+[10Dec2024 18:34:49.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <joAcxz> agus que verga son esos fantasmas
+[10Dec2024 18:34:53.931] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <genaaa> y los fantasmaaas
+[10Dec2024 18:34:59.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> suerte en el gulag
+[10Dec2024 18:35:14.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Teleported hola7 to joAcxz]
+[10Dec2024 18:35:24.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Teleported genaaa to hola7]
+[10Dec2024 18:35:28.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Teleported joAcxz to hola7]
+[10Dec2024 18:35:45.449] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
+[10Dec2024 18:36:05.035] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4601ms or 92 ticks behind
+[10Dec2024 18:36:30.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set joAcxz's game mode to Survival Mode]
+[10Dec2024 18:36:38.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set genaaa's game mode to Survival Mode]
+[10Dec2024 18:36:49.007] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: joAcxz lost connection: Disconnected
+[10Dec2024 18:36:49.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz left the game
+[10Dec2024 18:37:06.426] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: joAcxz[/127.112.204.214:36857] logged in with entity id 29873 at (-221.4904633063487, 68.0, -1102.300000011921)
+[10Dec2024 18:37:06.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz joined the game
+[10Dec2024 18:37:33.634] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhonnyxd0711 has made the advancement [Monster Hunter]
+[10Dec2024 18:37:36.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xGab has made the advancement [Monster Hunter]
+[10Dec2024 18:37:50.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaaa has made the advancement [I always come back]
+[10Dec2024 18:38:10.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xGab has made the advancement [The Parrots and the Bats]

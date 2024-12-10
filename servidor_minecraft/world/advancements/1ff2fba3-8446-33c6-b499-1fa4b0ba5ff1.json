@@ -621,6 +621,12 @@
     },
     "done": true
   },
+  "iceandfire:recipes/misc/ghost_chest": {
+    "criteria": {
+      "has_item": "2024-12-10 18:32:21 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/tripwire_hook": {
     "criteria": {
       "has_string": "2024-12-10 18:09:15 +0000"
@@ -744,6 +750,12 @@
   "minecraft:recipes/redstone/target": {
     "criteria": {
       "has_redstone": "2024-12-10 18:09:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2024-12-10 18:31:51 +0000"
     },
     "done": true
   },
@@ -1420,6 +1432,12 @@
     },
     "done": true
   },
+  "iceandfire:recipes/building_blocks/graveyard_soil": {
+    "criteria": {
+      "has_item": "2024-12-10 18:32:21 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/deepslate_tile_wall_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2024-12-10 18:11:49 +0000"
@@ -1492,6 +1510,12 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/kill_ghost": {
+    "criteria": {
+      "killed_fire_dragon": "2024-12-10 18:32:20 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/diamond_block": {
     "criteria": {
       "has_diamond": "2024-12-10 18:12:48 +0000"
@@ -1545,6 +1569,12 @@
       "has_gunpowder": "2024-12-10 18:09:16 +0000"
     },
     "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "bread": "2024-12-10 18:31:51 +0000"
+    },
+    "done": false
   },
   "securitycraft:recipes/misc/reinforced_dark_oak_fence": {
     "criteria": {
