@@ -2829,15 +2829,28 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2024-12-10 19:45:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/pink_terracotta": {
     "criteria": {
       "has_terracotta": "2024-12-10 19:23:41 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/redstone/lightning_rod": {
+    "criteria": {
+      "has_copper_ingot": "2024-12-10 19:38:54 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
-      "minecraft:phantom": "2024-12-10 18:37:36 +0000"
+      "minecraft:phantom": "2024-12-10 18:37:36 +0000",
+      "minecraft:zombie": "2024-12-10 19:39:50 +0000"
     },
     "done": false
   },
@@ -2895,6 +2908,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2024-12-10 19:45:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/spruce_slab": {
     "criteria": {
       "has_planks": "2024-12-10 18:51:47 +0000"
@@ -2910,6 +2929,18 @@
   "minecraft:husbandry/breed_an_animal": {
     "criteria": {
       "bred": "2024-12-10 18:38:10 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/redstone/reinforced_dispenser": {
+    "criteria": {
+      "has_bow": "2024-12-10 19:47:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/copper_block": {
+    "criteria": {
+      "has_copper_ingot": "2024-12-10 19:38:54 +0000"
     },
     "done": true
   },
@@ -2934,6 +2965,12 @@
   "minecraft:recipes/building_blocks/raw_copper_block": {
     "criteria": {
       "has_raw_copper": "2024-12-10 18:55:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/brush": {
+    "criteria": {
+      "has_copper_ingot": "2024-12-10 19:38:54 +0000"
     },
     "done": true
   },
@@ -3003,6 +3040,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2024-12-10 19:47:26 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/redstone/reinforced_sticky_piston": {
     "criteria": {
       "has_slime_ball": "2024-12-10 18:36:43 +0000"
@@ -3047,6 +3090,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "pumpkin_pie": "2024-12-10 19:39:21 +0000",
       "bread": "2024-12-10 18:23:04 +0000",
       "golden_apple": "2024-12-10 19:01:13 +0000",
       "carrot": "2024-12-10 18:53:43 +0000"
@@ -3074,6 +3118,12 @@
   "minecraft:recipes/building_blocks/brown_terracotta": {
     "criteria": {
       "has_terracotta": "2024-12-10 19:23:41 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/copper_ingot_to_nuggets": {
+    "criteria": {
+      "has_item": "2024-12-10 19:38:54 +0000"
     },
     "done": true
   },

@@ -3066,6 +3066,12 @@
     },
     "done": true
   },
+  "vampirism:recipes/combat/vampire/heart_striker_enhanced_repair": {
+    "criteria": {
+      "has_heart_striker": "2024-12-10 19:43:31 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/glass_pane": {
     "criteria": {
       "has_glass": "2024-12-10 19:32:22 +0000"
@@ -3099,6 +3105,12 @@
   "securitycraft:recipes/building_blocks/reinforced_pink_stained_glass_pane_from_glass": {
     "criteria": {
       "has_glass": "2024-12-10 19:32:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2024-12-10 19:45:14 +0000"
     },
     "done": true
   },
@@ -3174,6 +3186,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2024-12-10 19:45:14 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/building_blocks/reinforced_black_stained_glass_pane_from_dye": {
     "criteria": {
       "has_glass": "2024-12-10 19:32:22 +0000"
@@ -3246,6 +3264,12 @@
     },
     "done": true
   },
+  "securitycraft:recipes/redstone/reinforced_sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2024-12-10 19:45:14 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/building_blocks/reinforced_light_gray_stained_glass_pane_from_dye": {
     "criteria": {
       "has_glass": "2024-12-10 19:32:22 +0000"
@@ -3279,6 +3303,12 @@
   "securitycraft:recipes/building_blocks/reinforced_yellow_stained_glass": {
     "criteria": {
       "has_glass": "2024-12-10 19:32:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2024-12-10 19:45:14 +0000"
     },
     "done": true
   },

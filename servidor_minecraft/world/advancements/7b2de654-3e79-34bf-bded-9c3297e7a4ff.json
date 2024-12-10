@@ -3545,6 +3545,12 @@
     },
     "done": true
   },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_helmet": "2024-12-10 19:39:20 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:phantom": "2024-12-10 18:32:39 +0000"
@@ -3611,6 +3617,12 @@
     },
     "done": true
   },
+  "vampirism:recipes/combat/vampire/heart_striker_enhanced_repair": {
+    "criteria": {
+      "has_heart_striker": "2024-12-10 19:43:30 +0000"
+    },
+    "done": true
+  },
   "vampirism:recipes/misc/vampire/blood_bottle_to_glass": {
     "criteria": {
       "has_blood_bottle": "2024-12-10 19:33:28 +0000"
@@ -3638,6 +3650,12 @@
   "minecraft:recipes/building_blocks/chiseled_polished_blackstone_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2024-12-10 19:27:42 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/redstone/reinforced_dispenser": {
+    "criteria": {
+      "has_bow": "2024-12-10 19:39:52 +0000"
     },
     "done": true
   },
@@ -3740,6 +3758,12 @@
   "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2024-12-10 19:27:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2024-12-10 19:39:52 +0000"
     },
     "done": true
   },
