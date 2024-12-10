@@ -413,3 +413,21 @@
 [10Dec2024 19:09:12.861] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhonnyxd0711 left the game
 [10Dec2024 19:09:42.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set own game mode to Spectator Mode]
 [10Dec2024 19:10:01.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Teleported hola7 to Remolach0]
+[10Dec2024 19:10:09.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set own game mode to Survival Mode]
+[10Dec2024 19:10:11.551] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jhonnyxd0711[/127.227.115.134:55839] logged in with entity id 56103 at (-908.0512468913432, 63.5, -276.9801046773509)
+[10Dec2024 19:10:11.579] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhonnyxd0711 joined the game
+[10Dec2024 19:10:12.101] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
+[10Dec2024 19:10:16.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set own game mode to Spectator Mode]
+[10Dec2024 19:10:17.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set own game mode to Creative Mode]
+[10Dec2024 19:10:29.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> nutria
+[10Dec2024 19:10:36.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> tengo 2 stacks de cobre
+[10Dec2024 19:12:09.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 has made the advancement [Clash of the Titans]
+[10Dec2024 19:12:47.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set own game mode to Survival Mode]
+[10Dec2024 19:12:52.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set own game mode to Creative Mode]
+[10Dec2024 19:14:25.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Remolach0 has made the advancement [Sweet Dreams]
+[10Dec2024 19:16:59.926] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: joAcxz[/127.112.204.214:60217] logged in with entity id 61716 at (-218.57335738820296, 73.0, -1095.4391406342081)
+[10Dec2024 19:16:59.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz joined the game
+[10Dec2024 19:17:45.069] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: joAcxz lost connection: Timed out
+[10Dec2024 19:17:45.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz left the game
+[10Dec2024 19:20:00.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> hola
+[10Dec2024 19:20:18.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> nutri

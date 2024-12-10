@@ -2757,5 +2757,17 @@
     },
     "done": true
   },
+  "securitycraft:recipes/decorations/display_case": {
+    "criteria": {
+      "has_item_frame": "2024-12-10 19:09:04 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/gorgon_head": {
+    "criteria": {
+      "bestiary": "2024-12-10 19:12:09 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
