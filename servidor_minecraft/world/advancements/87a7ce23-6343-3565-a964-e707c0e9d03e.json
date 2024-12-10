@@ -2328,6 +2328,30 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2024-12-10 19:34:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye": {
+    "criteria": {
+      "has_lapis_lazuli": "2024-12-10 19:30:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_lapis_lazuli": "2024-12-10 19:30:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2024-12-10 19:34:25 +0000"
+    },
+    "done": true
+  },
   "casinocraft:recipes/decorations/wool_black": {
     "criteria": {
       "has_wool": "2024-12-10 18:10:34 +0000"
@@ -2349,6 +2373,12 @@
   "minecraft:recipes/decorations/spruce_sign": {
     "criteria": {
       "has_planks": "2024-12-10 19:14:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_feather": "2024-12-10 19:34:25 +0000"
     },
     "done": true
   },
@@ -2484,6 +2514,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2024-12-10 19:34:25 +0000"
+    },
+    "done": true
+  },
   "vampirism:recipes/alchemy_table/alchemy_table/vampire_blood_oil": {
     "criteria": {
       "has_wheat_seeds": "2024-12-10 19:28:32 +0000"
@@ -2522,6 +2558,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "chicken": "2024-12-10 19:34:50 +0000",
       "golden_apple": "2024-12-10 19:16:19 +0000",
       "golden_carrot": "2024-12-10 18:22:35 +0000",
       "carrot": "2024-12-10 18:30:08 +0000"
