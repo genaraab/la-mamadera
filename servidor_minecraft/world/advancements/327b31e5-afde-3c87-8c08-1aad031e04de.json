@@ -1143,6 +1143,7 @@
       "cooked_porkchop": "2024-12-10 20:06:30 +0000",
       "potato": "2024-12-10 18:29:03 +0000",
       "bread": "2024-12-09 21:59:57 +0000",
+      "golden_apple": "2024-12-10 21:11:23 +0000",
       "golden_carrot": "2024-12-10 18:51:55 +0000",
       "carrot": "2024-12-10 20:00:31 +0000"
     },
@@ -1950,6 +1951,12 @@
   "vampirism:recipes/misc/vampire/garlic_finder": {
     "criteria": {
       "has_garlic": "2024-12-10 21:08:45 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/kill_ghost": {
+    "criteria": {
+      "killed_fire_dragon": "2024-12-10 21:18:13 +0000"
     },
     "done": true
   },
