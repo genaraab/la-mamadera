@@ -5491,3 +5491,14 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [10Dec2024 16:27:55.132] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1e832p66eace8]: Consuming argument `black_glazed_terracotta`
 [10Dec2024 16:27:55.132] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1e832p66eace8]: Consuming argument `15`
 [10Dec2024 16:27:55.132] [Server thread/DEBUG] [org.enginehub.piston.impl.CommandParser/]: [1e832p66eace8]: Finished looking at arguments. Finalizing command.
+[10Dec2024 16:32:17.328] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo
+[10Dec2024 16:32:17.340] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo
+[10Dec2024 16:32:51.759] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 has made the advancement [Monster Hunter]
+[10Dec2024 16:36:44.012] [Server thread/WARN] [de.teamlapen.vampirism.entity.ModEntityEventHandler/]: Could not modify villager zombie attack target task for translation{key='entity.minecraft.zombified_piglin', args=[]}
+[10Dec2024 16:37:17.425] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo
+[10Dec2024 16:37:17.452] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo
+[10Dec2024 16:38:50.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 has completed the challenge [With Our Powers Combined!]
+[10Dec2024 16:42:17.332] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo
+[10Dec2024 16:42:17.355] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo
+[10Dec2024 16:47:17.333] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo
+[10Dec2024 16:47:17.354] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo

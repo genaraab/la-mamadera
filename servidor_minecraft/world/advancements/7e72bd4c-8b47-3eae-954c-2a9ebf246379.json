@@ -2199,6 +2199,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/froglights": {
+    "criteria": {
+      "froglights": "2024-12-10 16:38:50 +0000"
+    },
+    "done": true
+  },
   "iceandfire:recipes/misc/dragon_meal": {
     "criteria": {
       "has_item": "2024-12-10 16:23:46 +0000"
@@ -2228,6 +2234,12 @@
       "has_leather": "2024-12-10 16:23:46 +0000"
     },
     "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:enderman": "2024-12-10 16:32:51 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/building_blocks/quartz_pillar": {
     "criteria": {
@@ -2274,6 +2286,12 @@
   "sophisticatedbackpacks:recipes/misc/upgrade_base": {
     "criteria": {
       "has_leather": "2024-12-10 16:23:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:enderman": "2024-12-10 16:32:51 +0000"
     },
     "done": true
   },
