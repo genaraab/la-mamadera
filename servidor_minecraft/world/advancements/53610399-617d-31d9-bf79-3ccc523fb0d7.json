@@ -2805,9 +2805,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2024-12-10 20:10:13 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/white_dye": {
     "criteria": {
       "has_bone_meal": "2024-12-10 18:45:05 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2024-12-10 20:10:13 +0000"
     },
     "done": true
   },
@@ -2841,6 +2853,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2024-12-10 20:10:13 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/lightning_rod": {
     "criteria": {
       "has_copper_ingot": "2024-12-10 19:38:54 +0000"
@@ -2854,6 +2872,12 @@
     },
     "done": false
   },
+  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2024-12-10 20:10:13 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/spruce_wood": {
     "criteria": {
       "has_log": "2024-12-10 18:45:11 +0000"
@@ -2863,6 +2887,12 @@
   "minecraft:recipes/building_blocks/clay": {
     "criteria": {
       "has_clay_ball": "2024-12-10 19:23:38 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_bookshelf": {
+    "criteria": {
+      "has_book": "2024-12-10 20:10:13 +0000"
     },
     "done": true
   },
@@ -2887,6 +2917,18 @@
   "minecraft:recipes/building_blocks/purple_terracotta": {
     "criteria": {
       "has_terracotta": "2024-12-10 19:23:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2024-12-10 20:10:13 +0000"
+    },
+    "done": true
+  },
+  "vampirism:recipes/decorations/general/altar_cleansing_new": {
+    "criteria": {
+      "has_book": "2024-12-10 20:10:13 +0000"
     },
     "done": true
   },
@@ -3073,6 +3115,12 @@
   "minecraft:recipes/redstone/slime_block": {
     "criteria": {
       "has_slime_ball": "2024-12-10 18:36:43 +0000"
+    },
+    "done": true
+  },
+  "casinocraft:recipes/misc/item_book": {
+    "criteria": {
+      "has_paper": "2024-12-10 20:10:13 +0000"
     },
     "done": true
   },

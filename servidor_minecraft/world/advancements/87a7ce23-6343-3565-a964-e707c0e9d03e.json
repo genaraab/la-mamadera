@@ -2395,6 +2395,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2024-12-10 20:06:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/beetroot_soup": {
     "criteria": {
       "has_beetroot": "2024-12-10 18:06:57 +0000"
@@ -2437,9 +2443,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/spruce_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-10 20:03:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2024-12-10 20:06:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/golden_carrot": {
     "criteria": {
       "has_gold_nugget": "2024-12-10 18:15:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-10 20:03:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-10 20:03:08 +0000"
     },
     "done": true
   },
@@ -2467,15 +2497,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/mangrove_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-10 20:03:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/black_banner": {
     "criteria": {
       "has_black_wool": "2024-12-10 18:10:34 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2024-12-10 20:06:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/bone_meal": {
     "criteria": {
       "has_bone": "2024-12-10 18:15:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2024-12-10 20:06:30 +0000"
+    },
+    "done": true
+  },
+  "vampirism:recipes/transportation/dark_spruce_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-10 20:03:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-10 20:03:08 +0000"
     },
     "done": true
   },
@@ -2491,9 +2551,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/cherry_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-10 20:03:08 +0000"
+    },
+    "done": true
+  },
   "vampirism:recipes/combat/vampire/vampire_clothing_hat": {
     "criteria": {
       "has_wool": "2024-12-10 18:10:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-10 20:03:08 +0000"
     },
     "done": true
   },
@@ -2539,6 +2611,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/dark_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-10 20:03:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/orange_concrete_powder": {
     "criteria": {
       "has_gravel": "2024-12-10 19:51:14 +0000"
@@ -2569,6 +2647,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/bamboo_chest_raft": {
+    "criteria": {
+      "has_boat": "2024-12-10 20:03:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/spruce_pressure_plate": {
     "criteria": {
       "has_planks": "2024-12-10 19:14:04 +0000"
@@ -2581,6 +2665,12 @@
     },
     "done": true
   },
+  "vampirism:recipes/transportation/cursed_spruce_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-10 20:03:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/red_dye_from_beetroot": {
     "criteria": {
       "has_beetroot": "2024-12-10 18:06:57 +0000"
@@ -2590,6 +2680,12 @@
   "minecraft:recipes/food/cooked_chicken_from_smoking": {
     "criteria": {
       "has_chicken": "2024-12-10 19:34:25 +0000"
+    },
+    "done": true
+  },
+  "vampirism:recipes/decorations/vampire/chandelier": {
+    "criteria": {
+      "has_string": "2024-12-10 20:06:30 +0000"
     },
     "done": true
   },
@@ -2626,6 +2722,12 @@
   "minecraft:recipes/redstone/spruce_fence_gate": {
     "criteria": {
       "has_planks": "2024-12-10 19:14:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2024-12-10 20:06:30 +0000"
     },
     "done": true
   },
@@ -2672,6 +2774,12 @@
   "minecraft:recipes/building_blocks/cyan_concrete_powder": {
     "criteria": {
       "has_gravel": "2024-12-10 19:51:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2024-12-10 20:06:30 +0000"
     },
     "done": true
   },

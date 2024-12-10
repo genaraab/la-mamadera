@@ -9536,3 +9536,19 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [10Dec2024 20:00:43.429] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2895ms or 57 ticks behind
 [10Dec2024 20:01:02.380] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3996ms or 79 ticks behind
 [10Dec2024 20:01:20.860] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3526ms or 70 ticks behind
+[10Dec2024 20:01:41.448] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5614ms or 112 ticks behind
+[10Dec2024 20:04:34.125] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> para cuando momento nutria?
+[10Dec2024 20:04:42.571] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2036ms or 40 ticks behind
+[10Dec2024 20:05:03.081] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2247ms or 44 ticks behind
+[10Dec2024 20:05:20.805] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2771ms or 55 ticks behind
+[10Dec2024 20:05:37.958] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2174ms or 43 ticks behind
+[10Dec2024 20:05:48.405] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo
+[10Dec2024 20:05:48.415] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo
+[10Dec2024 20:08:28.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> LaViejaDeAgustin a dos coras y medio
+[10Dec2024 20:08:30.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> ojo
+[10Dec2024 20:10:49.341] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo
+[10Dec2024 20:10:49.365] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo
+[10Dec2024 20:10:58.935] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[10Dec2024 20:11:03.812] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Remolach0) moved too quickly! -8.479452897987585,0.0,6.0023925031719365
+[10Dec2024 20:11:26.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Remolach0 has made the advancement [You Are A Pirate]
+[10Dec2024 20:11:27.589] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 13655ms or 273 ticks behind
