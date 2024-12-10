@@ -349,3 +349,18 @@
 [10Dec2024 18:37:36.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xGab has made the advancement [Monster Hunter]
 [10Dec2024 18:37:50.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaaa has made the advancement [I always come back]
 [10Dec2024 18:38:10.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xGab has made the advancement [The Parrots and the Bats]
+[10Dec2024 18:39:35.839] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2054ms or 41 ticks behind
+[10Dec2024 18:40:01.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz was burnt to a crisp whilst fighting hola7
+[10Dec2024 18:40:08.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> y ese pvp?
+[10Dec2024 18:40:11.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> y luego el psicopata soy yo
+[10Dec2024 18:40:15.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> revivio y lo mate
+[10Dec2024 18:40:22.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jhonnyxd0711> que bolas
+[10Dec2024 18:40:23.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> asi no se puede
+[10Dec2024 18:40:33.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jhonnyxd0711> pero hola tu no eres nutria¿?
+[10Dec2024 18:40:44.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> si
+[10Dec2024 18:41:33.763] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> nutria
+[10Dec2024 18:41:40.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> voy
+[10Dec2024 18:41:54.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Teleported hola7 to Remolach0]
+[10Dec2024 18:44:48.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Teleported hola7 to joAcxz]
+[10Dec2024 18:47:43.460] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-900, y=76, z=-281} BlockPos{x=-900, y=76, z=-280}
+[10Dec2024 18:47:43.514] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-900, y=76, z=-281} BlockPos{x=-900, y=76, z=-280}
