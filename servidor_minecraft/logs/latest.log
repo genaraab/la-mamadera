@@ -431,3 +431,37 @@
 [10Dec2024 19:17:45.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz left the game
 [10Dec2024 19:20:00.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> hola
 [10Dec2024 19:20:18.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> nutri
+[10Dec2024 19:20:27.212] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2028ms or 40 ticks behind
+[10Dec2024 19:20:28.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> tenemos ya 4 stacks de cobre
+[10Dec2024 19:20:53.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> disc
+[10Dec2024 19:23:36.542] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[10Dec2024 19:23:43.025] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jhonnyxd0711 lost connection: Timed out
+[10Dec2024 19:23:43.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhonnyxd0711 left the game
+[10Dec2024 19:23:43.152] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[10Dec2024 19:23:54.116] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2582ms or 51 ticks behind
+[10Dec2024 19:24:07.833] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LaViejaDeAgustin[/127.243.114.140:44395] logged in with entity id 68096 at (1259.5, 66.0, -756.5)
+[10Dec2024 19:24:07.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LaViejaDeAgustin joined the game
+[10Dec2024 19:24:13.711] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4627ms or 92 ticks behind
+[10Dec2024 19:24:21.191] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jhonnyxd0711[/127.227.115.134:33379] logged in with entity id 68490 at (-886.7887950999132, 64.2531999805212, -288.6527016125304)
+[10Dec2024 19:24:21.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhonnyxd0711 joined the game
+[10Dec2024 19:24:27.777] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 has made the advancement [Into Fire]
+[10Dec2024 19:24:41.956] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 13272ms or 265 ticks behind
+[10Dec2024 19:25:08.346] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 11412ms or 228 ticks behind
+[10Dec2024 19:25:35.964] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 12629ms or 252 ticks behind
+[10Dec2024 19:25:49.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <genaaa> agis
+[10Dec2024 19:26:01.770] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10836ms or 216 ticks behind
+[10Dec2024 19:26:03.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Teleported hola7 to genaaa]
+[10Dec2024 19:26:12.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Teleported LaViejaDeAgustin to genaaa]
+[10Dec2024 19:26:24.882] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8148ms or 162 ticks behind
+[10Dec2024 19:26:46.535] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6700ms or 134 ticks behind
+[10Dec2024 19:27:08.299] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6765ms or 135 ticks behind
+[10Dec2024 19:27:28.250] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4966ms or 99 ticks behind
+[10Dec2024 19:27:46.142] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2908ms or 58 ticks behind
+[10Dec2024 19:28:05.433] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4299ms or 85 ticks behind
+[10Dec2024 19:28:21.898] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Teleported hola7 to jhonnyxd0711]
+[10Dec2024 19:28:26.901] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6517ms or 130 ticks behind
+[10Dec2024 19:28:48.012] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6128ms or 122 ticks behind
+[10Dec2024 19:29:11.022] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8038ms or 160 ticks behind
+[10Dec2024 19:29:32.218] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6234ms or 124 ticks behind
+[10Dec2024 19:29:53.990] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6806ms or 136 ticks behind
+[10Dec2024 19:30:16.771] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7786ms or 155 ticks behind
