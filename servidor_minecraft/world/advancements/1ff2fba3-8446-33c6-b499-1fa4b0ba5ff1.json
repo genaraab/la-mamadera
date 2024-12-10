@@ -1746,7 +1746,8 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "bread": "2024-12-10 18:31:51 +0000"
+      "bread": "2024-12-10 18:31:51 +0000",
+      "carrot": "2024-12-10 18:49:17 +0000"
     },
     "done": false
   },
@@ -1780,6 +1781,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_brown_mushroom": "2024-12-10 18:50:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/sandstone_wall_from_sandstone_stonecutting": {
     "criteria": {
       "has_sandstone": "2024-12-10 18:43:23 +0000"
@@ -1789,6 +1796,12 @@
   "minecraft:recipes/building_blocks/cut_sandstone": {
     "criteria": {
       "has_sandstone": "2024-12-10 18:43:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2024-12-10 18:50:23 +0000"
     },
     "done": true
   },
@@ -1843,6 +1856,12 @@
   "minecraft:recipes/decorations/sandstone_wall": {
     "criteria": {
       "has_sandstone": "2024-12-10 18:43:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_brown_mushroom": "2024-12-10 18:50:39 +0000"
     },
     "done": true
   },

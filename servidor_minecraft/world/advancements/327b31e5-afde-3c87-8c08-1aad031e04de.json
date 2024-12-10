@@ -1141,7 +1141,8 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "potato": "2024-12-10 18:29:03 +0000",
-      "bread": "2024-12-09 21:59:57 +0000"
+      "bread": "2024-12-09 21:59:57 +0000",
+      "golden_carrot": "2024-12-10 18:51:55 +0000"
     },
     "done": false
   },
@@ -1519,7 +1520,8 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
-      "minecraft:phantom": "2024-12-10 18:37:33 +0000"
+      "minecraft:phantom": "2024-12-10 18:37:33 +0000",
+      "minecraft:zombie": "2024-12-10 18:54:55 +0000"
     },
     "done": false
   },
@@ -1532,6 +1534,12 @@
   "minecraft:recipes/combat/golden_chestplate": {
     "criteria": {
       "has_gold_ingot": "2024-12-10 18:35:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2024-12-10 18:47:22 +0000"
     },
     "done": true
   },
@@ -1553,9 +1561,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2024-12-10 18:47:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2024-12-10 18:55:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_porkchop": {
     "criteria": {
       "has_porkchop": "2024-12-10 18:36:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_copper_block": {
+    "criteria": {
+      "has_raw_copper": "2024-12-10 18:55:25 +0000"
     },
     "done": true
   },
@@ -1616,6 +1642,12 @@
   "casinocraft:recipes/decorations/wool_white": {
     "criteria": {
       "has_wool": "2024-12-10 18:29:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2024-12-10 18:55:25 +0000"
     },
     "done": true
   },

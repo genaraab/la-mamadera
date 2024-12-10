@@ -7261,3 +7261,17 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [10Dec2024 18:46:52.056] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo
 [10Dec2024 18:47:43.460] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-900, y=76, z=-281} BlockPos{x=-900, y=76, z=-280}
 [10Dec2024 18:47:43.514] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-900, y=76, z=-281} BlockPos{x=-900, y=76, z=-280}
+[10Dec2024 18:49:48.086] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[10Dec2024 18:51:01.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Teleported hola7 to jhonnyxd0711]
+[10Dec2024 18:51:54.019] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo
+[10Dec2024 18:51:54.030] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo
+[10Dec2024 18:52:55.917] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> nuestro buff es tener hambre
+[10Dec2024 18:53:02.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> y el debuff ser rapidos
+[10Dec2024 18:53:18.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> es lo que eligieron
+[10Dec2024 18:54:34.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Added tag 'anim.ruleta.turqueza' to 6 entities]
+[10Dec2024 18:54:42.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> chupame las bolas
+[10Dec2024 18:55:32.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> un totem por miembro del team
+[10Dec2024 18:55:50.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> 1 por cada 2 stacks de cobre
+[10Dec2024 18:56:11.816] [Server thread/INFO] [journeymap/]: mp (FileLoaded) Setting config file to version "5.10.3": journeymap.server.mp.config
+[10Dec2024 18:56:54.066] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo
+[10Dec2024 18:56:54.084] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo
