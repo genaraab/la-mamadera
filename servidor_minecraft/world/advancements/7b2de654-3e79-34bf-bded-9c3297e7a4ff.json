@@ -3629,6 +3629,12 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/bestiary": {
+    "criteria": {
+      "bestiary": "2024-12-10 19:06:41 +0000"
+    },
+    "done": true
+  },
   "vampirism:recipes/decorations/vampire/chandelier": {
     "criteria": {
       "has_string": "2024-12-10 18:43:39 +0000"

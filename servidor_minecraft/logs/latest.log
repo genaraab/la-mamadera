@@ -374,3 +374,42 @@
 [10Dec2024 18:55:32.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> un totem por miembro del team
 [10Dec2024 18:55:50.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> 1 por cada 2 stacks de cobre
 [10Dec2024 18:56:11.816] [Server thread/INFO] [journeymap/]: mp (FileLoaded) Setting config file to version "5.10.3": journeymap.server.mp.config
+[10Dec2024 19:00:17.550] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: hola7 moved too quickly! 2.2400367624892397,0.0,-9.764381529409945
+[10Dec2024 19:00:23.593] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: joAcxz lost connection: Timed out
+[10Dec2024 19:00:23.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz left the game
+[10Dec2024 19:00:23.658] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[10Dec2024 19:01:14.373] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: joAcxz[/127.112.204.214:38463] logged in with entity id 48739 at (-220.85023677064, 73.0, -1095.4720282518351)
+[10Dec2024 19:01:14.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz joined the game
+[10Dec2024 19:01:15.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xGab blew up
+[10Dec2024 19:01:28.564] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Added tag 'anim.muerte' to 6 entities]
+[10Dec2024 19:01:30.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <joAcxz> t
+[10Dec2024 19:01:35.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set xGab's game mode to Spectator Mode]
+[10Dec2024 19:01:39.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <genaaa> que buena broma
+[10Dec2024 19:02:00.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Teleported xGab to hola7]
+[10Dec2024 19:02:43.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set xGab's game mode to Survival Mode]
+[10Dec2024 19:03:17.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <genaaa> chicos es de noche o de dia?
+[10Dec2024 19:03:33.652] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: hola7 moved too quickly! 1.2299036178957294,0.0,9.966948116937829
+[10Dec2024 19:03:44.605] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: joAcxz lost connection: Timed out
+[10Dec2024 19:03:44.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz left the game
+[10Dec2024 19:03:44.694] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[10Dec2024 19:03:52.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Teleported hola7 to genaaa]
+[10Dec2024 19:04:46.042] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: joAcxz[/127.112.204.214:49449] logged in with entity id 51541 at (-220.70913685258037, 72.0, -1100.3316580903127)
+[10Dec2024 19:04:46.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz joined the game
+[10Dec2024 19:05:11.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <joAcxz> bromitas no
+[10Dec2024 19:06:06.646] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: joAcxz was kicked for floating too long!
+[10Dec2024 19:06:06.692] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: joAcxz lost connection: Flying is not enabled on this server
+[10Dec2024 19:06:06.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz left the game
+[10Dec2024 19:06:41.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaaa has made the advancement [Book of Monsters]
+[10Dec2024 19:07:10.326] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: joAcxz[/127.112.204.214:33429] logged in with entity id 53274 at (-245.01209140271456, 73.16610926093821, -1110.326758395916)
+[10Dec2024 19:07:10.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz joined the game
+[10Dec2024 19:07:30.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <joAcxz> dios
+[10Dec2024 19:08:12.609] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: hola7 lost connection: Timed out
+[10Dec2024 19:08:12.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 left the game
+[10Dec2024 19:08:25.470] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: joAcxz lost connection: Timed out
+[10Dec2024 19:08:25.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz left the game
+[10Dec2024 19:08:25.935] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: hola7[/127.129.251.23:50769] logged in with entity id 53929 at (-236.42832446374914, 71.0, -1109.7543105028753)
+[10Dec2024 19:08:25.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 joined the game
+[10Dec2024 19:09:12.860] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jhonnyxd0711 lost connection: Timed out
+[10Dec2024 19:09:12.861] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhonnyxd0711 left the game
+[10Dec2024 19:09:42.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set own game mode to Spectator Mode]
+[10Dec2024 19:10:01.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Teleported hola7 to Remolach0]
