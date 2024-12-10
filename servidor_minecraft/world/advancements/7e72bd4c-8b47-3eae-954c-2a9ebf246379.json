@@ -2235,9 +2235,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/orange_candle": {
+    "criteria": {
+      "has_orange_dye": "2024-12-10 17:08:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/stone_brick_wall": {
     "criteria": {
       "has_stone_bricks": "2024-12-10 17:07:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/cyan_dye": {
+    "criteria": {
+      "has_blue_dye": "2024-12-10 17:11:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/make_a_sign_glow": {
+    "criteria": {
+      "make_a_sign_glow": "2024-12-10 17:08:49 +0000"
     },
     "done": true
   },
@@ -2271,9 +2289,33 @@
     },
     "done": true
   },
+  "vampirism:recipes/decorations/vampire/coffin_orange_from_white": {
+    "criteria": {
+      "has_dye": "2024-12-10 17:08:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_candle": {
+    "criteria": {
+      "has_blue_dye": "2024-12-10 17:11:25 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/building_blocks/reinforced_lime_carpet": {
     "criteria": {
       "has_item": "2024-12-10 16:58:46 +0000"
+    },
+    "done": true
+  },
+  "vampirism:recipes/decorations/vampire/coffin_blue_from_white": {
+    "criteria": {
+      "has_dye": "2024-12-10 17:11:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_blue_dye": "2024-12-10 17:11:25 +0000"
     },
     "done": true
   },
@@ -2319,6 +2361,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dye_orange_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-12-10 17:08:48 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/building_blocks/reinforced_white_wool": {
     "criteria": {
       "has_wool": "2024-12-10 16:58:46 +0000"
@@ -2349,9 +2397,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
+    "criteria": {
+      "has_blue_dye": "2024-12-10 17:11:25 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/building_blocks/reinforced_red_carpet": {
     "criteria": {
       "has_item": "2024-12-10 16:58:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_glow_ink_sac": "2024-12-10 17:08:26 +0000"
     },
     "done": true
   },
@@ -2382,6 +2442,12 @@
   "securitycraft:recipes/building_blocks/reinforced_green_carpet": {
     "criteria": {
       "has_item": "2024-12-10 16:58:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_orange_dye": "2024-12-10 17:08:48 +0000"
     },
     "done": true
   },
@@ -2457,6 +2523,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dye_blue_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-12-10 17:11:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/chest_minecart": {
     "criteria": {
       "has_minecart": "2024-12-10 16:59:35 +0000"
@@ -2481,6 +2553,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_white_dye": {
+    "criteria": {
+      "has_blue_dye": "2024-12-10 17:11:25 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/building_blocks/reinforced_magenta_carpet": {
     "criteria": {
       "has_item": "2024-12-10 16:58:46 +0000"
@@ -2493,9 +2571,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dye_blue_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-12-10 17:11:25 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/building_blocks/reinforced_purple_carpet": {
     "criteria": {
       "has_item": "2024-12-10 16:58:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/purple_dye": {
+    "criteria": {
+      "has_blue_dye": "2024-12-10 17:11:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_orange_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-12-10 17:08:48 +0000"
     },
     "done": true
   },
@@ -2553,6 +2649,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dye_orange_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-12-10 17:08:48 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/building_blocks/reinforced_black_carpet": {
     "criteria": {
       "has_item": "2024-12-10 16:58:46 +0000"
@@ -2571,6 +2673,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dye_blue_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-12-10 17:11:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/kill_a_mob": {
     "criteria": {
       "minecraft:enderman": "2024-12-10 16:32:51 +0000"
@@ -2586,6 +2694,12 @@
   "securitycraft:recipes/building_blocks/reinforced_black_wool": {
     "criteria": {
       "has_wool": "2024-12-10 16:58:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
+    "criteria": {
+      "has_blue_dye": "2024-12-10 17:11:25 +0000"
     },
     "done": true
   },

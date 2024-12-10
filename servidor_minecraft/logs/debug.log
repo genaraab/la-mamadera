@@ -5511,3 +5511,22 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [10Dec2024 17:07:17.332] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo
 [10Dec2024 17:07:17.344] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo
 [10Dec2024 17:08:49.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 has made the advancement [Glow and Behold!]
+[10Dec2024 17:12:17.323] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo
+[10Dec2024 17:12:17.332] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo
+[10Dec2024 17:15:12.058] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: hola7 lost connection: Disconnected
+[10Dec2024 17:15:12.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 left the game
+[10Dec2024 17:15:24.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[10Dec2024 17:15:24.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[10Dec2024 17:15:24.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[10Dec2024 17:15:24.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[10Dec2024 17:15:25.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:overworld
+[10Dec2024 17:15:25.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_nether
+[10Dec2024 17:15:25.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_end
+[10Dec2024 17:15:25.410] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo
+[10Dec2024 17:15:25.422] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo
+[10Dec2024 17:15:25.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10Dec2024 17:15:25.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10Dec2024 17:15:25.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10Dec2024 17:15:25.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[10Dec2024 17:15:25.470] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER
+[10Dec2024 17:15:25.474] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs

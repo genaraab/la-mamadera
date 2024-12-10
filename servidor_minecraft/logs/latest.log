@@ -207,3 +207,17 @@
 [10Dec2024 16:36:44.012] [Server thread/WARN] [de.teamlapen.vampirism.entity.ModEntityEventHandler/]: Could not modify villager zombie attack target task for translation{key='entity.minecraft.zombified_piglin', args=[]}
 [10Dec2024 16:38:50.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 has completed the challenge [With Our Powers Combined!]
 [10Dec2024 17:08:49.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 has made the advancement [Glow and Behold!]
+[10Dec2024 17:15:12.058] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: hola7 lost connection: Disconnected
+[10Dec2024 17:15:12.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 left the game
+[10Dec2024 17:15:24.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[10Dec2024 17:15:24.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[10Dec2024 17:15:24.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[10Dec2024 17:15:24.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[10Dec2024 17:15:25.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:overworld
+[10Dec2024 17:15:25.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_nether
+[10Dec2024 17:15:25.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_end
+[10Dec2024 17:15:25.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10Dec2024 17:15:25.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10Dec2024 17:15:25.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10Dec2024 17:15:25.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[10Dec2024 17:15:25.474] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
