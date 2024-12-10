@@ -741,3 +741,36 @@
 [10Dec2024 20:51:13.829] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jhonnyxd0711 was kicked for floating too long!
 [10Dec2024 20:51:13.869] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jhonnyxd0711 lost connection: Flying is not enabled on this server
 [10Dec2024 20:51:13.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhonnyxd0711 left the game
+[10Dec2024 20:52:58.780] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2046ms or 40 ticks behind
+[10Dec2024 20:53:26.025] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jhonnyxd0711[/127.227.115.134:60957] logged in with entity id 140518 at (-885.75562966462, 64.74918707874468, -267.7371188093935)
+[10Dec2024 20:53:26.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhonnyxd0711 joined the game
+[10Dec2024 20:53:36.476] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Weckstone[/127.37.245.80:58727] logged in with entity id 140747 at (-838.5, 64.0, -86.5)
+[10Dec2024 20:53:36.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Weckstone joined the game
+[10Dec2024 20:53:36.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Weckstone has made the advancement [Ice and Fire]
+[10Dec2024 20:53:43.003] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-839, y=65, z=-83}
+[10Dec2024 20:53:43.272] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-839, y=65, z=-83}
+[10Dec2024 20:53:45.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> 4K?????
+[10Dec2024 20:53:49.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> ah
+[10Dec2024 20:53:52.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> es la nutria
+[10Dec2024 20:54:25.969] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2035ms or 40 ticks behind
+[10Dec2024 20:55:00.036] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[10Dec2024 20:55:23.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Made Weckstone a server operator]
+[10Dec2024 20:55:31.415] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xGab lost connection: Timed out
+[10Dec2024 20:55:31.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xGab left the game
+[10Dec2024 20:55:37.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> denle la bienvenida a la nutria 1
+[10Dec2024 20:55:48.203] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: xGab[/127.154.180.156:54861] logged in with entity id 143804 at (-919.6910087349581, 72.5, -287.2465067046147)
+[10Dec2024 20:55:48.211] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xGab joined the game
+[10Dec2024 20:56:25.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Weckstone: Set own game mode to Creative Mode]
+[10Dec2024 20:57:25.389] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[10Dec2024 20:57:57.208] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2073ms or 41 ticks behind
+[10Dec2024 20:58:16.366] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4181ms or 83 ticks behind
+[10Dec2024 20:58:34.442] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3108ms or 62 ticks behind
+[10Dec2024 20:58:52.844] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3409ms or 68 ticks behind
+[10Dec2024 20:59:50.557] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jhonnyxd0711 was kicked for floating too long!
+[10Dec2024 20:59:50.558] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jhonnyxd0711 lost connection: Flying is not enabled on this server
+[10Dec2024 20:59:50.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhonnyxd0711 left the game
+[10Dec2024 20:59:50.604] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[10Dec2024 21:00:14.614] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jhonnyxd0711[/127.227.115.134:59553] logged in with entity id 147887 at (-957.7042419019278, 105.00133597911214, -425.4458380739239)
+[10Dec2024 21:00:14.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhonnyxd0711 joined the game
+[10Dec2024 21:00:33.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Weckstone: Teleported jhonnyxd0711 to Weckstone]
+[10Dec2024 21:00:35.986] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
