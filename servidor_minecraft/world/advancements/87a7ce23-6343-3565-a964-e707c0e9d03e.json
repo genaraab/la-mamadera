@@ -2737,6 +2737,12 @@
     },
     "done": true
   },
+  "lootr:25loot": {
+    "criteria": {
+      "loot_stat": "2024-12-10 20:32:29 +0000"
+    },
+    "done": true
+  },
   "vampirism:recipes/decorations/vampire/chandelier": {
     "criteria": {
       "has_string": "2024-12-10 20:06:30 +0000"
@@ -2827,6 +2833,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2024-12-10 20:32:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "chicken": "2024-12-10 19:34:50 +0000",
@@ -2836,6 +2848,12 @@
       "carrot": "2024-12-10 18:30:08 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2024-12-10 20:32:16 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/building_blocks/purple_concrete_powder": {
     "criteria": {
