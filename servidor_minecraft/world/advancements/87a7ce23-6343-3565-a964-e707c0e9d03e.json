@@ -2325,5 +2325,77 @@
     },
     "done": true
   },
+  "casinocraft:recipes/decorations/wool_black": {
+    "criteria": {
+      "has_wool": "2024-12-10 18:10:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2024-12-10 18:06:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2024-12-10 18:15:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2024-12-10 18:10:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2024-12-10 18:15:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2024-12-10 18:10:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2024-12-10 18:15:35 +0000"
+    },
+    "done": true
+  },
+  "vampirism:recipes/combat/vampire/vampire_clothing_hat": {
+    "criteria": {
+      "has_wool": "2024-12-10 18:10:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2024-12-10 18:10:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2024-12-10 18:06:57 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/food/gold_pile": {
+    "criteria": {
+      "has_item": "2024-12-10 18:15:34 +0000"
+    },
+    "done": true
+  },
+  "vampirism:recipes/decorations/vampire/coffin_black": {
+    "criteria": {
+      "has_wool": "2024-12-10 18:10:34 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

@@ -188,3 +188,37 @@
 [10Dec2024 18:06:11.371] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2487ms or 49 ticks behind
 [10Dec2024 18:08:25.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz has made the advancement [Stone Age]
 [10Dec2024 18:08:31.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> holas
+[10Dec2024 18:09:10.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz has made the advancement ['X' Marks the Spot]
+[10Dec2024 18:09:32.898] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: hola7 lost connection: Disconnected
+[10Dec2024 18:09:32.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 left the game
+[10Dec2024 18:10:21.570] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: hola7[/127.3.49.72:35027] logged in with entity id 5057 at (-968.496215185877, 97.5, -332.6001259574701)
+[10Dec2024 18:10:21.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 joined the game
+[10Dec2024 18:10:27.431] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: genaaa[/127.175.82.2:42957] logged in with entity id 5132 at (-219.4296873004249, 72.0, -1098.7600828935056)
+[10Dec2024 18:10:27.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaaa joined the game
+[10Dec2024 18:12:48.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz has made the advancement [Diamonds!]
+[10Dec2024 18:12:51.863] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jhonnyxd0711[/127.227.115.134:60543] logged in with entity id 7080 at (-901.0689015968662, 63.5, -281.76078944535465)
+[10Dec2024 18:12:51.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhonnyxd0711 joined the game
+[10Dec2024 18:13:07.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Added tag 'anim.ruleta.naranja' to hola7]
+[10Dec2024 18:13:47.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <genaaa> agus
+[10Dec2024 18:14:02.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> si
+[10Dec2024 18:14:08.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <genaaa> podes venir al dis?
+[10Dec2024 18:14:11.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> voy
+[10Dec2024 18:15:03.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Applied effect Night Vision to joAcxz]
+[10Dec2024 18:15:12.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Applied effect Haste to joAcxz]
+[10Dec2024 18:15:16.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz has made the advancement [Barrel Booty]
+[10Dec2024 18:15:17.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Applied effect Fire Resistance to joAcxz]
+[10Dec2024 18:15:20.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Applied effect Water Breathing to joAcxz]
+[10Dec2024 18:15:43.374] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: xGab[/127.154.180.156:43469] logged in with entity id 8661 at (-905.2375000119209, 63.5, -280.08085125480835)
+[10Dec2024 18:15:43.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xGab joined the game
+[10Dec2024 18:16:20.318] [Server thread/INFO] [journeymap/]: mp (FileLoaded) Setting config file to version "5.10.3": journeymap.server.mp.config
+[10Dec2024 18:16:25.834] [Server thread/INFO] [journeymap/]: mp (FileLoaded) Setting config file to version "5.10.3": journeymap.server.mp.config
+[10Dec2024 18:16:41.185] [Server thread/INFO] [journeymap/]: mp (FileLoaded) Setting config file to version "5.10.3": journeymap.server.mp.config
+[10Dec2024 18:16:43.423] [Server thread/INFO] [journeymap/]: mp (FileLoaded) Setting config file to version "5.10.3": journeymap.server.mp.config
+[10Dec2024 18:16:43.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> grcias nutrias por poner todo cerca de nuestra base
+[10Dec2024 18:17:13.480] [Server thread/INFO] [journeymap/]: mp (FileLoaded) Setting config file to version "5.10.3": journeymap.server.mp.config
+[10Dec2024 18:17:39.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> <3
+[10Dec2024 18:17:47.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> eres una nutria?
+[10Dec2024 18:17:50.071] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> si
+[10Dec2024 18:17:51.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> te veo como un steve
+[10Dec2024 18:17:53.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> no carga la skin
+[10Dec2024 18:18:33.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Remolach0 has made the advancement [Best Friends Forever]

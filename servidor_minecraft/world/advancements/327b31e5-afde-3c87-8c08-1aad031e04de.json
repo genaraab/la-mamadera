@@ -1126,21 +1126,27 @@
     },
     "done": true
   },
-  "vampirism:recipes/decorations/vampire/fog_diffuser": {
+  "vampirism:recipes/food/general/garlic_bread": {
     "criteria": {
-      "has_diamond": "2024-12-09 22:19:19 +0000"
+      "has_bread": "2024-12-09 21:59:48 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/combat/diamond_leggings": {
+  "minecraft:husbandry/root": {
     "criteria": {
-      "has_diamond": "2024-12-09 22:19:19 +0000"
+      "consumed_item": "2024-12-09 21:59:57 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+  "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "has_potato": "2024-12-09 22:37:01 +0000"
+      "bread": "2024-12-09 21:59:57 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2024-12-09 22:05:41 +0000"
     },
     "done": true
   },
@@ -1150,39 +1156,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/diamond_sword": {
-    "criteria": {
-      "has_diamond": "2024-12-09 22:19:19 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/jukebox": {
-    "criteria": {
-      "has_diamond": "2024-12-09 22:19:19 +0000"
-    },
-    "done": true
-  },
   "securitycraft:recipes/building_blocks/secret_mangrove_hanging_sign": {
     "criteria": {
       "has_sign": "2024-12-09 22:06:01 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/diamond_chestplate": {
-    "criteria": {
-      "has_diamond": "2024-12-09 22:19:19 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/beetroot_soup": {
-    "criteria": {
-      "has_beetroot": "2024-12-09 22:37:12 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/baked_potato": {
-    "criteria": {
-      "has_potato": "2024-12-09 22:37:01 +0000"
     },
     "done": true
   },
@@ -1198,18 +1174,6 @@
     },
     "done": true
   },
-  "minecraft:story/shiny_gear": {
-    "criteria": {
-      "diamond_chestplate": "2024-12-09 22:19:53 +0000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_packed_mud": {
-    "criteria": {
-      "has_wheat": "2024-12-09 22:06:56 +0000"
-    },
-    "done": true
-  },
   "securitycraft:recipes/building_blocks/secret_warped_hanging_sign": {
     "criteria": {
       "has_sign": "2024-12-09 22:06:01 +0000"
@@ -1219,12 +1183,6 @@
   "securitycraft:recipes/building_blocks/secret_jungle_hanging_sign": {
     "criteria": {
       "has_sign": "2024-12-09 22:06:01 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/diamond_pickaxe": {
-    "criteria": {
-      "has_diamond": "2024-12-09 22:19:19 +0000"
     },
     "done": true
   },
@@ -1246,39 +1204,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/bread": {
-    "criteria": {
-      "has_wheat": "2024-12-09 22:06:56 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/hay_block": {
-    "criteria": {
-      "has_wheat": "2024-12-09 22:06:56 +0000"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/root": {
-    "criteria": {
-      "consumed_item": "2024-12-09 21:59:57 +0000"
-    },
-    "done": true
-  },
   "securitycraft:recipes/building_blocks/secret_mangrove_sign_item": {
     "criteria": {
       "has_sign": "2024-12-09 22:06:01 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/diamond_hoe": {
-    "criteria": {
-      "has_diamond": "2024-12-09 22:19:19 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/diamond_shovel": {
-    "criteria": {
-      "has_diamond": "2024-12-09 22:19:19 +0000"
     },
     "done": true
   },
@@ -1294,27 +1222,9 @@
     },
     "done": true
   },
-  "minecraft:husbandry/breed_an_animal": {
-    "criteria": {
-      "bred": "2024-12-09 22:08:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/diamond_boots": {
-    "criteria": {
-      "has_diamond": "2024-12-09 22:19:19 +0000"
-    },
-    "done": true
-  },
   "securitycraft:recipes/building_blocks/secret_bamboo_hanging_sign": {
     "criteria": {
       "has_sign": "2024-12-09 22:06:01 +0000"
-    },
-    "done": true
-  },
-  "vampirism:recipes/decorations/hunter/garlic_diffuser_normal": {
-    "criteria": {
-      "has_diamond": "2024-12-09 22:19:19 +0000"
     },
     "done": true
   },
@@ -1324,45 +1234,9 @@
     },
     "done": true
   },
-  "vampirism:recipes/food/general/garlic_bread": {
-    "criteria": {
-      "has_bread": "2024-12-09 21:59:48 +0000"
-    },
-    "done": true
-  },
   "securitycraft:recipes/building_blocks/secret_cherry_sign_item": {
     "criteria": {
       "has_sign": "2024-12-09 22:06:01 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/red_dye_from_beetroot": {
-    "criteria": {
-      "has_beetroot": "2024-12-09 22:37:12 +0000"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/bred_all_animals": {
-    "criteria": {
-      "minecraft:sheep": "2024-12-09 22:08:41 +0000"
-    },
-    "done": false
-  },
-  "minecraft:recipes/food/baked_potato_from_smoking": {
-    "criteria": {
-      "has_potato": "2024-12-09 22:37:01 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/diamond_helmet": {
-    "criteria": {
-      "has_diamond": "2024-12-09 22:19:19 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/carrot_on_a_stick": {
-    "criteria": {
-      "has_carrot": "2024-12-09 22:05:41 +0000"
     },
     "done": true
   },
@@ -1378,29 +1252,11 @@
     },
     "done": true
   },
-  "minecraft:adventure/root": {
-    "criteria": {
-      "killed_something": "2024-12-09 22:40:45 +0000"
-    },
-    "done": true
-  },
   "securitycraft:recipes/building_blocks/secret_bamboo_sign_item": {
     "criteria": {
       "has_sign": "2024-12-09 22:06:01 +0000"
     },
     "done": true
-  },
-  "minecraft:recipes/building_blocks/diamond_block": {
-    "criteria": {
-      "has_diamond": "2024-12-09 22:19:19 +0000"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/balanced_diet": {
-    "criteria": {
-      "bread": "2024-12-09 21:59:57 +0000"
-    },
-    "done": false
   },
   "securitycraft:recipes/building_blocks/secret_oak_hanging_sign": {
     "criteria": {
@@ -1411,6 +1267,120 @@
   "securitycraft:recipes/building_blocks/secret_acacia_hanging_sign": {
     "criteria": {
       "has_sign": "2024-12-09 22:06:01 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/secret_sign_item": {
+    "criteria": {
+      "has_sign": "2024-12-09 22:06:01 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/secret_spruce_hanging_sign": {
+    "criteria": {
+      "has_sign": "2024-12-09 22:06:01 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_packed_mud": {
+    "criteria": {
+      "has_wheat": "2024-12-09 22:06:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2024-12-09 22:06:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2024-12-09 22:06:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2024-12-09 22:08:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:sheep": "2024-12-09 22:08:41 +0000"
+    },
+    "done": false
+  },
+  "vampirism:recipes/decorations/vampire/fog_diffuser": {
+    "criteria": {
+      "has_diamond": "2024-12-09 22:19:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2024-12-09 22:19:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_sword": {
+    "criteria": {
+      "has_diamond": "2024-12-09 22:19:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jukebox": {
+    "criteria": {
+      "has_diamond": "2024-12-09 22:19:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_chestplate": {
+    "criteria": {
+      "has_diamond": "2024-12-09 22:19:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_pickaxe": {
+    "criteria": {
+      "has_diamond": "2024-12-09 22:19:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_hoe": {
+    "criteria": {
+      "has_diamond": "2024-12-09 22:19:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_shovel": {
+    "criteria": {
+      "has_diamond": "2024-12-09 22:19:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_boots": {
+    "criteria": {
+      "has_diamond": "2024-12-09 22:19:19 +0000"
+    },
+    "done": true
+  },
+  "vampirism:recipes/decorations/hunter/garlic_diffuser_normal": {
+    "criteria": {
+      "has_diamond": "2024-12-09 22:19:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_helmet": {
+    "criteria": {
+      "has_diamond": "2024-12-09 22:19:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diamond_block": {
+    "criteria": {
+      "has_diamond": "2024-12-09 22:19:19 +0000"
     },
     "done": true
   },
@@ -1426,15 +1396,45 @@
     },
     "done": true
   },
-  "securitycraft:recipes/building_blocks/secret_sign_item": {
+  "minecraft:story/shiny_gear": {
     "criteria": {
-      "has_sign": "2024-12-09 22:06:01 +0000"
+      "diamond_chestplate": "2024-12-09 22:19:53 +0000"
     },
     "done": true
   },
-  "securitycraft:recipes/building_blocks/secret_spruce_hanging_sign": {
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
     "criteria": {
-      "has_sign": "2024-12-09 22:06:01 +0000"
+      "has_potato": "2024-12-09 22:37:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2024-12-09 22:37:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2024-12-09 22:37:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2024-12-09 22:37:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2024-12-09 22:37:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2024-12-09 22:40:45 +0000"
     },
     "done": true
   },
