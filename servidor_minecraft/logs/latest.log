@@ -170,3 +170,36 @@
 [10Dec2024 16:08:07.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Added tag 'anim.ruleta.violeta' to hola7]
 [10Dec2024 16:08:13.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Added tag 'anim.ruleta.morada' to hola7]
 [10Dec2024 16:10:11.071] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Added tag 'anim.ruleta.naranja' to hola7]
+[10Dec2024 16:10:45.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Added tag 'anim.ruleta.rosada' to hola7]
+[10Dec2024 16:11:05.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Added tag 'anim.ruleta.turqueza' to hola7]
+[10Dec2024 16:14:22.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Added tag 'anim.ruleta.turqueza' to hola7]
+[10Dec2024 16:18:41.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 was killed
+[10Dec2024 16:18:41.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Killed hola7]
+[10Dec2024 16:18:56.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Enabling data pack [file/Animacion de Muerte Dedsafio 3 - Club Pala.zip (world)]]
+[10Dec2024 16:18:59.009] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:general/umbrella as it's serializer returned null
+[10Dec2024 16:18:59.065] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:general/guidebook as it's serializer returned null
+[10Dec2024 16:18:59.082] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:vampire/blood_bottle as it's serializer returned null
+[10Dec2024 16:18:59.104] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 14 recipes
+[10Dec2024 16:18:59.447] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2865 advancements
+[10Dec2024 16:18:59.476] [Server thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
+[10Dec2024 16:18:59.490] [Server thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio entities
+[10Dec2024 16:18:59.504] [Server thread/INFO] [de.teamlapen.vampirism.entity.player.skills.SkillTree/]: Loaded 53 skill nodes
+[10Dec2024 16:18:59.512] [Server thread/INFO] [de.teamlapen.vampirism.entity.converted.VampirismEntityRegistry/]: Registered 14 convertibles
+[10Dec2024 16:19:02.493] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6192ms or 123 ticks behind
+[10Dec2024 16:19:09.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 was killed
+[10Dec2024 16:19:09.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Killed hola7]
+[10Dec2024 16:19:18.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Disabling data pack [file/Animacion de Muerte Dedsafio 3 - Club Pala.zip (world)]]
+[10Dec2024 16:19:19.629] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:general/umbrella as it's serializer returned null
+[10Dec2024 16:19:19.653] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:general/guidebook as it's serializer returned null
+[10Dec2024 16:19:19.657] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:vampire/blood_bottle as it's serializer returned null
+[10Dec2024 16:19:19.667] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 14 recipes
+[10Dec2024 16:19:19.756] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2865 advancements
+[10Dec2024 16:19:19.761] [Server thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
+[10Dec2024 16:19:19.767] [Server thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio entities
+[10Dec2024 16:19:19.782] [Server thread/INFO] [de.teamlapen.vampirism.entity.player.skills.SkillTree/]: Loaded 53 skill nodes
+[10Dec2024 16:19:19.786] [Server thread/INFO] [de.teamlapen.vampirism.entity.converted.VampirismEntityRegistry/]: Registered 14 convertibles
+[10Dec2024 16:19:21.646] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2895ms or 57 ticks behind
+[10Dec2024 16:19:21.765] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: hola7 moved too quickly! -5.404593984181815,0.0,-8.81864997074517
+[10Dec2024 16:19:35.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set own game mode to Creative Mode]
+[10Dec2024 16:22:14.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set own game mode to Spectator Mode]
+[10Dec2024 16:23:44.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set own game mode to Creative Mode]
