@@ -2367,6 +2367,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2024-12-10 18:22:35 +0000"
+    },
+    "done": true
+  },
   "vampirism:recipes/combat/vampire/vampire_clothing_hat": {
     "criteria": {
       "has_wool": "2024-12-10 18:10:34 +0000"
@@ -2376,6 +2382,12 @@
   "minecraft:recipes/decorations/black_bed": {
     "criteria": {
       "has_black_wool": "2024-12-10 18:10:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2024-12-10 18:18:33 +0000"
     },
     "done": true
   },
@@ -2396,6 +2408,12 @@
       "has_wool": "2024-12-10 18:10:34 +0000"
     },
     "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "golden_carrot": "2024-12-10 18:22:35 +0000"
+    },
+    "done": false
   },
   "DataVersion": 3465
 }
