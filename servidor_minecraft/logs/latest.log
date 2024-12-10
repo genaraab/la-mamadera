@@ -955,3 +955,11 @@
 [10Dec2024 21:32:19.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xGab left the game
 [10Dec2024 21:32:34.850] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8166ms or 163 ticks behind
 [10Dec2024 21:32:46.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Weckstone: Teleported Remolach0 to Weckstone]
+[10Dec2024 21:33:59.047] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Remolach0 lost connection: Disconnected
+[10Dec2024 21:33:59.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Remolach0 left the game
+[10Dec2024 21:33:59.303] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2069ms or 41 ticks behind
+[10Dec2024 21:39:35.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz has made the advancement [Cover Me with Diamonds]
+[10Dec2024 21:40:54.804] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: xGab[/127.154.180.156:52769] logged in with entity id 183607 at (-893.1941871613011, 63.5, -302.39566349732263)
+[10Dec2024 21:40:54.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xGab joined the game
+[10Dec2024 21:41:49.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Weckstone> hola gab
+[10Dec2024 21:44:01.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Weckstone> en 1 hora y 20 minutos cierra

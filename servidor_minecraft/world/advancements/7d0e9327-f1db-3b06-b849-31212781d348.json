@@ -3416,5 +3416,11 @@
     },
     "done": true
   },
+  "securitycraft:recipes/misc/reinforced_lectern": {
+    "criteria": {
+      "has_bookshelf": "2024-12-10 21:39:27 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
