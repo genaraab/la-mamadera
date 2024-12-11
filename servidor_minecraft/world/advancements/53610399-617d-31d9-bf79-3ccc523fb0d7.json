@@ -2838,6 +2838,7 @@
     "criteria": {
       "minecraft:skeleton": "2024-12-10 21:20:23 +0000",
       "minecraft:phantom": "2024-12-10 18:37:36 +0000",
+      "minecraft:enderman": "2024-12-10 21:46:41 +0000",
       "minecraft:zombie": "2024-12-10 19:39:50 +0000"
     },
     "done": false

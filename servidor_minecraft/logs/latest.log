@@ -1,965 +1,145 @@
-[10Dec2024 17:58:49.637] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[10Dec2024 17:58:49.646] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
-[10Dec2024 17:58:56.179] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[10Dec2024 17:58:56.588] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/la-mamadera/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[10Dec2024 17:58:57.728] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/la-mamadera/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[10Dec2024 17:58:57.731] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/la-mamadera/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[10Dec2024 17:58:57.734] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/la-mamadera/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[10Dec2024 17:58:57.737] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/la-mamadera/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[10Dec2024 17:58:58.269] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
-[10Dec2024 17:59:04.654] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[10Dec2024 17:59:05.406] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[10Dec2024 17:59:10.074] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/inventory/AbstractContainerScreen for invalid dist DEDICATED_SERVER
-[10Dec2024 17:59:10.077] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/inventory/AbstractContainerScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/inventory/AbstractContainerScreen for invalid dist DEDICATED_SERVER)
-[10Dec2024 17:59:10.079] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.inventory.AbstractContainerScreen was not found itemborders.mixins.json:AbstractContainerScreenMixin
-[10Dec2024 17:59:10.084] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/Gui for invalid dist DEDICATED_SERVER
-[10Dec2024 17:59:10.089] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/Gui (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/Gui for invalid dist DEDICATED_SERVER)
-[10Dec2024 17:59:10.090] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.Gui was not found itemborders.mixins.json:GuiMixin
-[10Dec2024 17:59:11.427] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
-[10Dec2024 17:59:36.706] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[10Dec2024 17:59:36.718] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
-[10Dec2024 17:59:36.721] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
-[10Dec2024 17:59:36.725] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
-[10Dec2024 17:59:36.729] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
-[10Dec2024 17:59:36.729] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
-[10Dec2024 17:59:36.731] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
-[10Dec2024 17:59:36.732] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
-[10Dec2024 17:59:37.944] [modloading-worker-0/INFO] [de.teamlapen.vampirism.config.BalanceConfig/]: IceAndFire is loaded -> Adjusting default fire related configuration.
-[10Dec2024 17:59:39.589] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[10Dec2024 17:59:39.591] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[10Dec2024 17:59:41.263] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
-[10Dec2024 17:59:55.450] [modloading-worker-0/INFO] [CPM/]: Customizable Player Models Initialized
-[10Dec2024 17:59:56.633] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Starting version check at https://mc-update-check.anthonyhilyard.com/520110
-[10Dec2024 17:59:57.021] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Found status: UP_TO_DATE Current: 1.1.25 Target: null
-[10Dec2024 17:59:57.022] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[10Dec2024 17:59:57.194] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
-[10Dec2024 17:59:57.194] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [prism] Starting version check at https://mc-update-check.anthonyhilyard.com/638111
-[10Dec2024 17:59:57.220] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [prism] Found status: UP_TO_DATE Current: 1.0.5 Target: null
-[10Dec2024 17:59:57.220] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[10Dec2024 17:59:57.563] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: OUTDATED Current: 1.9.11 Target: 1.9.12
-[10Dec2024 17:59:57.566] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cpm] Starting version check at https://raw.githubusercontent.com/tom5454/CustomPlayerModels/master/version-check.json
-[10Dec2024 17:59:57.681] [modloading-worker-0/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.forge.ForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@24c580fe]
-[10Dec2024 17:59:57.700] [modloading-worker-0/INFO] [com.sk89q.worldedit.forge.ForgeWorldEdit/]: WorldEdit for Forge (version 7.2.15+6463-5ca4dff) is loaded
-[10Dec2024 17:59:57.708] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cpm] Found status: BETA Current: 0.6.19a Target: 0.6.19a
-[10Dec2024 17:59:57.709] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [itemborders] Starting version check at https://mc-update-check.anthonyhilyard.com/513769
-[10Dec2024 17:59:57.754] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [itemborders] Found status: OUTDATED Current: 1.2.1 Target: 1.2.2
-[10Dec2024 17:59:57.759] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vampirism] Starting version check at https://api.modrinth.com/updates/vampirism/forge_updates.json
-[10Dec2024 17:59:57.783] [main/INFO] [journeymap/]: Initializing Packet Registries
-[10Dec2024 17:59:57.908] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vampirism] Found status: UP_TO_DATE Current: 1.10.11 Target: null
-[10Dec2024 17:59:57.908] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[10Dec2024 17:59:57.998] [main/INFO] [de.teamlapen.vampirism.core.ModEffects/]: Fixing vanilla night vision potion types
-[10Dec2024 17:59:58.034] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.12
-[10Dec2024 17:59:58.034] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
-[10Dec2024 17:59:58.338] [modloading-worker-0/INFO] [CPM/]: Customizable Player Models API initialized: Loaded plugins: (0)
+[11Dec2024 00:34:08.871] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[11Dec2024 00:34:08.880] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[11Dec2024 00:34:11.325] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[11Dec2024 00:34:11.516] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/la-mamadera/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[11Dec2024 00:34:12.266] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/la-mamadera/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[11Dec2024 00:34:12.271] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/la-mamadera/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[11Dec2024 00:34:12.274] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/la-mamadera/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[11Dec2024 00:34:12.281] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/la-mamadera/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[11Dec2024 00:34:12.776] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
+[11Dec2024 00:34:19.601] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[11Dec2024 00:34:19.753] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[11Dec2024 00:34:24.057] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/inventory/AbstractContainerScreen for invalid dist DEDICATED_SERVER
+[11Dec2024 00:34:24.060] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/inventory/AbstractContainerScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/inventory/AbstractContainerScreen for invalid dist DEDICATED_SERVER)
+[11Dec2024 00:34:24.061] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.inventory.AbstractContainerScreen was not found itemborders.mixins.json:AbstractContainerScreenMixin
+[11Dec2024 00:34:24.070] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/Gui for invalid dist DEDICATED_SERVER
+[11Dec2024 00:34:24.077] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/Gui (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/Gui for invalid dist DEDICATED_SERVER)
+[11Dec2024 00:34:24.089] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.Gui was not found itemborders.mixins.json:GuiMixin
+[11Dec2024 00:34:24.936] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[11Dec2024 00:34:51.295] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[11Dec2024 00:34:51.301] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[11Dec2024 00:34:51.312] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[11Dec2024 00:34:51.314] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[11Dec2024 00:34:51.315] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[11Dec2024 00:34:51.316] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[11Dec2024 00:34:51.324] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[11Dec2024 00:34:51.338] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[11Dec2024 00:34:52.855] [modloading-worker-0/INFO] [de.teamlapen.vampirism.config.BalanceConfig/]: IceAndFire is loaded -> Adjusting default fire related configuration.
+[11Dec2024 00:34:54.940] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[11Dec2024 00:34:54.941] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[11Dec2024 00:34:55.594] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[11Dec2024 00:35:08.851] [modloading-worker-0/INFO] [CPM/]: Customizable Player Models Initialized
+[11Dec2024 00:35:10.278] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Starting version check at https://mc-update-check.anthonyhilyard.com/520110
+[11Dec2024 00:35:10.567] [modloading-worker-0/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.forge.ForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@23dc8817]
+[11Dec2024 00:35:10.601] [modloading-worker-0/INFO] [com.sk89q.worldedit.forge.ForgeWorldEdit/]: WorldEdit for Forge (version 7.2.15+6463-5ca4dff) is loaded
+[11Dec2024 00:35:10.727] [main/INFO] [journeymap/]: Initializing Packet Registries
+[11Dec2024 00:35:10.799] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Found status: UP_TO_DATE Current: 1.1.25 Target: null
+[11Dec2024 00:35:10.803] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[11Dec2024 00:35:10.925] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
+[11Dec2024 00:35:10.925] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [prism] Starting version check at https://mc-update-check.anthonyhilyard.com/638111
+[11Dec2024 00:35:10.955] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [prism] Found status: UP_TO_DATE Current: 1.0.5 Target: null
+[11Dec2024 00:35:10.955] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[11Dec2024 00:35:11.011] [main/INFO] [de.teamlapen.vampirism.core.ModEffects/]: Fixing vanilla night vision potion types
+[11Dec2024 00:35:11.337] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: OUTDATED Current: 1.9.11 Target: 1.9.12
+[11Dec2024 00:35:11.338] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cpm] Starting version check at https://raw.githubusercontent.com/tom5454/CustomPlayerModels/master/version-check.json
+[11Dec2024 00:35:11.422] [modloading-worker-0/INFO] [CPM/]: Customizable Player Models API initialized: Loaded plugins: (0)
 
-[10Dec2024 17:59:58.380] [main/INFO] [de.teamlapen.vampirism.core.ModEffects/]: Fixing vanilla night vision potion types
-[10Dec2024 17:59:58.496] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: OUTDATED Current: 1.20.1-1.0.17 Target: 1.20.1-1.0.18
-[10Dec2024 18:00:05.069] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[10Dec2024 18:00:08.025] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/la-mamadera/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23161!/assets/.mcassetsroot' uses unexpected schema
-[10Dec2024 18:00:08.026] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/la-mamadera/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23161!/data/.mcassetsroot' uses unexpected schema
-[10Dec2024 18:00:11.881] [main/INFO] [de.teamlapen.vampirism.world.biome.OverworldModifications/]: Adding biome vampirism:vampire_forest to ParameterPoints [ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[-5666--500], offset=0], ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[500-4000], offset=0]] in Preset.OVERWORLD
-[10Dec2024 18:00:13.145] [main/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.forge.ForgePlatform
-[10Dec2024 18:00:16.892] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:general/umbrella as it's serializer returned null
-[10Dec2024 18:00:17.010] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:general/guidebook as it's serializer returned null
-[10Dec2024 18:00:17.032] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:vampire/blood_bottle as it's serializer returned null
-[10Dec2024 18:00:17.056] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 14 recipes
-[10Dec2024 18:00:17.501] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2865 advancements
-[10Dec2024 18:00:17.524] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
-[10Dec2024 18:00:17.539] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio entities
-[10Dec2024 18:00:17.564] [main/INFO] [de.teamlapen.vampirism.entity.player.skills.SkillTree/]: Loaded 53 skill nodes
-[10Dec2024 18:00:17.585] [main/INFO] [de.teamlapen.vampirism.entity.converted.VampirismEntityRegistry/]: Registered 14 convertibles
-[10Dec2024 18:00:21.193] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[10Dec2024 18:00:21.194] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[10Dec2024 18:00:21.195] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[10Dec2024 18:00:21.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[10Dec2024 18:00:21.663] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[10Dec2024 18:00:21.859] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[10Dec2024 18:00:22.205] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[10Dec2024 18:00:22.207] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[10Dec2024 18:00:22.208] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[10Dec2024 18:00:22.208] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[10Dec2024 18:00:22.264] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[10Dec2024 18:00:22.268] [Thread-3/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[10Dec2024 18:00:22.687] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[10Dec2024 18:00:23.649] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / minecraft:overworld] with concurrent set.
-[10Dec2024 18:00:34.018] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[10Dec2024 18:00:34.194] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[10Dec2024 18:00:38.505] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[10Dec2024 18:00:38.806] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[10Dec2024 18:00:41.947] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[10Dec2024 18:00:42.881] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[10Dec2024 18:00:46.189] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[10Dec2024 18:00:46.231] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[10Dec2024 18:00:49.583] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[10Dec2024 18:00:49.639] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[10Dec2024 18:00:53.357] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[10Dec2024 18:00:53.406] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[10Dec2024 18:00:56.506] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / minecraft:the_nether] with concurrent set.
-[10Dec2024 18:00:56.531] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / minecraft:the_end] with concurrent set.
-[10Dec2024 18:00:56.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[10Dec2024 18:01:08.962] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[10Dec2024 18:01:09.532] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Dec2024 18:01:09.555] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Dec2024 18:01:09.601] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Dec2024 18:01:09.646] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Dec2024 18:01:09.699] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Dec2024 18:01:09.765] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Dec2024 18:01:09.925] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[10Dec2024 18:01:10.320] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Dec2024 18:01:10.361] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Dec2024 18:01:10.372] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Dec2024 18:01:10.415] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Dec2024 18:01:10.462] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Dec2024 18:01:10.656] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Dec2024 18:01:10.672] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Dec2024 18:01:10.707] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Dec2024 18:01:10.728] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Dec2024 18:01:10.743] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Dec2024 18:01:10.745] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Dec2024 18:01:10.767] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Dec2024 18:01:10.846] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Dec2024 18:01:10.867] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Dec2024 18:01:10.905] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Dec2024 18:01:10.915] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Dec2024 18:01:10.979] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Dec2024 18:01:11.068] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Dec2024 18:01:11.116] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Dec2024 18:01:11.219] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Dec2024 18:01:11.295] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Dec2024 18:01:11.414] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Dec2024 18:01:11.416] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Dec2024 18:01:11.417] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Dec2024 18:01:11.572] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Dec2024 18:01:12.037] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Dec2024 18:01:12.536] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Dec2024 18:01:13.036] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Dec2024 18:01:13.536] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Dec2024 18:01:14.037] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Dec2024 18:01:14.536] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Dec2024 18:01:15.042] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Dec2024 18:01:15.545] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[10Dec2024 18:01:16.708] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 20173 ms
-[10Dec2024 18:01:16.709] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (54.456s)! For help, type "help"
-[10Dec2024 18:01:17.071] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[10Dec2024 18:01:18.815] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[10Dec2024 18:01:19.102] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[10Dec2024 18:01:22.250] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[10Dec2024 18:01:22.532] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
-[10Dec2024 18:01:22.533] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
-[10Dec2024 18:01:22.773] [Server thread/WARN] [de.teamlapen.vampirism.entity.ModEntityEventHandler/]: Could not modify villager zombie attack target task for translation{key='entity.minecraft.zombified_piglin', args=[]}
-[10Dec2024 18:01:33.096] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: hola7[/127.129.251.23:59695] logged in with entity id 31 at (-965.817041904852, 99.90471817090632, -346.7103352195435)
-[10Dec2024 18:01:33.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 joined the game
-[10Dec2024 18:01:34.407] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: joAcxz[/127.112.204.214:55163] logged in with entity id 96 at (-409.6218293302646, 71.24918707874468, -1096.8773416719018)
-[10Dec2024 18:01:34.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz joined the game
-[10Dec2024 18:01:36.271] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2487ms or 49 ticks behind
-[10Dec2024 18:01:40.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: The difficulty has been set to Peaceful]
-[10Dec2024 18:01:50.527] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: hola7 lost connection: Disconnected
-[10Dec2024 18:01:50.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 left the game
-[10Dec2024 18:01:59.091] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7857ms or 157 ticks behind
-[10Dec2024 18:02:15.817] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: hola7[/127.129.251.23:55783] logged in with entity id 673 at (-970.0408097606319, 99.90471817090632, -338.4906135841993)
-[10Dec2024 18:02:15.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 joined the game
-[10Dec2024 18:02:20.193] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
-[10Dec2024 18:02:27.149] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: hola7 lost connection: Disconnected
-[10Dec2024 18:02:27.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 left the game
-[10Dec2024 18:02:37.852] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Remolach0[/127.93.139.23:38873] logged in with entity id 1096 at (-909.0129335673629, 64.875, -278.3645635293537)
-[10Dec2024 18:02:37.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Remolach0 joined the game
-[10Dec2024 18:03:27.622] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: hola7[/127.129.251.23:48219] logged in with entity id 1825 at (-963.3016072816357, 97.0, -347.8631823365818)
-[10Dec2024 18:03:27.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 joined the game
-[10Dec2024 18:03:48.947] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: hola7 lost connection: Disconnected
-[10Dec2024 18:03:48.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 left the game
-[10Dec2024 18:04:23.566] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: hola7[/127.129.251.23:45827] logged in with entity id 2475 at (-969.3031795242543, 97.0, -337.26072185263695)
-[10Dec2024 18:04:23.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 joined the game
-[10Dec2024 18:04:34.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz has made the advancement [Suit Up]
-[10Dec2024 18:04:36.297] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: hola7 lost connection: Disconnected
-[10Dec2024 18:04:36.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 left the game
-[10Dec2024 18:04:44.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz has made the advancement [Acquire Hardware]
-[10Dec2024 18:04:57.307] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: hola7[/127.129.251.23:33149] logged in with entity id 2662 at (-969.4232437292272, 97.0, -338.86664450539445)
-[10Dec2024 18:04:57.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 joined the game
-[10Dec2024 18:05:06.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz has made the advancement [Isn't It Iron Pick]
-[10Dec2024 18:05:11.551] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: hola7 lost connection: Disconnected
-[10Dec2024 18:05:11.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 left the game
-[10Dec2024 18:05:28.860] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: hola7[/127.129.251.23:54191] logged in with entity id 2837 at (-970.2092400241969, 97.0, -341.4498144961185)
-[10Dec2024 18:05:28.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 joined the game
-[10Dec2024 18:05:33.997] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: hola7 lost connection: Disconnected
-[10Dec2024 18:05:33.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 left the game
-[10Dec2024 18:05:51.465] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: hola7[/127.129.251.23:37533] logged in with entity id 2956 at (-970.2092400241969, 97.0, -341.4498144961185)
-[10Dec2024 18:05:51.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 joined the game
-[10Dec2024 18:05:53.913] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2028ms or 40 ticks behind
-[10Dec2024 18:06:11.371] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2487ms or 49 ticks behind
-[10Dec2024 18:08:25.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz has made the advancement [Stone Age]
-[10Dec2024 18:08:31.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> holas
-[10Dec2024 18:09:10.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz has made the advancement ['X' Marks the Spot]
-[10Dec2024 18:09:32.898] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: hola7 lost connection: Disconnected
-[10Dec2024 18:09:32.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 left the game
-[10Dec2024 18:10:21.570] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: hola7[/127.3.49.72:35027] logged in with entity id 5057 at (-968.496215185877, 97.5, -332.6001259574701)
-[10Dec2024 18:10:21.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 joined the game
-[10Dec2024 18:10:27.431] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: genaaa[/127.175.82.2:42957] logged in with entity id 5132 at (-219.4296873004249, 72.0, -1098.7600828935056)
-[10Dec2024 18:10:27.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaaa joined the game
-[10Dec2024 18:12:48.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz has made the advancement [Diamonds!]
-[10Dec2024 18:12:51.863] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jhonnyxd0711[/127.227.115.134:60543] logged in with entity id 7080 at (-901.0689015968662, 63.5, -281.76078944535465)
-[10Dec2024 18:12:51.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhonnyxd0711 joined the game
-[10Dec2024 18:13:07.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Added tag 'anim.ruleta.naranja' to hola7]
-[10Dec2024 18:13:47.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <genaaa> agus
-[10Dec2024 18:14:02.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> si
-[10Dec2024 18:14:08.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <genaaa> podes venir al dis?
-[10Dec2024 18:14:11.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> voy
-[10Dec2024 18:15:03.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Applied effect Night Vision to joAcxz]
-[10Dec2024 18:15:12.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Applied effect Haste to joAcxz]
-[10Dec2024 18:15:16.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz has made the advancement [Barrel Booty]
-[10Dec2024 18:15:17.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Applied effect Fire Resistance to joAcxz]
-[10Dec2024 18:15:20.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Applied effect Water Breathing to joAcxz]
-[10Dec2024 18:15:43.374] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: xGab[/127.154.180.156:43469] logged in with entity id 8661 at (-905.2375000119209, 63.5, -280.08085125480835)
-[10Dec2024 18:15:43.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xGab joined the game
-[10Dec2024 18:16:20.318] [Server thread/INFO] [journeymap/]: mp (FileLoaded) Setting config file to version "5.10.3": journeymap.server.mp.config
-[10Dec2024 18:16:25.834] [Server thread/INFO] [journeymap/]: mp (FileLoaded) Setting config file to version "5.10.3": journeymap.server.mp.config
-[10Dec2024 18:16:41.185] [Server thread/INFO] [journeymap/]: mp (FileLoaded) Setting config file to version "5.10.3": journeymap.server.mp.config
-[10Dec2024 18:16:43.423] [Server thread/INFO] [journeymap/]: mp (FileLoaded) Setting config file to version "5.10.3": journeymap.server.mp.config
-[10Dec2024 18:16:43.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> grcias nutrias por poner todo cerca de nuestra base
-[10Dec2024 18:17:13.480] [Server thread/INFO] [journeymap/]: mp (FileLoaded) Setting config file to version "5.10.3": journeymap.server.mp.config
-[10Dec2024 18:17:39.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> <3
-[10Dec2024 18:17:47.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> eres una nutria?
-[10Dec2024 18:17:50.071] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> si
-[10Dec2024 18:17:51.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> te veo como un steve
-[10Dec2024 18:17:53.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> no carga la skin
-[10Dec2024 18:18:33.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Remolach0 has made the advancement [Best Friends Forever]
-[10Dec2024 18:21:00.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Added tag 'anim.ruleta.naranja' to 6 entities]
-[10Dec2024 18:21:04.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> mis bolas
-[10Dec2024 18:21:22.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: The difficulty has been set to Normal]
-[10Dec2024 18:21:22.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed 2 entities]
-[10Dec2024 18:21:22.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Sapo]
-[10Dec2024 18:21:22.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed 2 entities]
-[10Dec2024 18:21:22.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Sapo]
-[10Dec2024 18:21:22.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Sapo]
-[10Dec2024 18:21:22.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed 3 entities]
-[10Dec2024 18:21:22.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed 3 entities]
-[10Dec2024 18:21:22.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed 3 entities]
-[10Dec2024 18:21:22.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Sapo]
-[10Dec2024 18:21:22.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed 4 entities]
-[10Dec2024 18:21:22.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Sapo]
-[10Dec2024 18:21:22.864] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed 5 entities]
-[10Dec2024 18:21:22.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Sapo]
-[10Dec2024 18:21:22.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed 4 entities]
-[10Dec2024 18:21:22.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed 2 entities]
-[10Dec2024 18:21:23.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed 2 entities]
-[10Dec2024 18:21:23.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Sapo]
-[10Dec2024 18:21:23.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed 4 entities]
-[10Dec2024 18:21:23.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed 3 entities]
-[10Dec2024 18:21:23.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed 2 entities]
-[10Dec2024 18:21:23.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed 3 entities]
-[10Dec2024 18:21:23.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed 5 entities]
-[10Dec2024 18:21:23.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Sapo]
-[10Dec2024 18:21:23.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed 2 entities]
-[10Dec2024 18:21:23.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Sapo]
-[10Dec2024 18:21:23.917] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed 2 entities]
-[10Dec2024 18:21:24.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Sapo]
-[10Dec2024 18:21:24.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Sapo]
-[10Dec2024 18:21:24.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed 5 entities]
-[10Dec2024 18:21:24.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed 2 entities]
-[10Dec2024 18:21:24.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed 3 entities]
-[10Dec2024 18:21:24.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed 2 entities]
-[10Dec2024 18:21:24.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed 5 entities]
-[10Dec2024 18:21:24.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed 2 entities]
-[10Dec2024 18:21:24.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Sapo]
-[10Dec2024 18:21:24.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed 3 entities]
-[10Dec2024 18:21:24.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed 2 entities]
-[10Dec2024 18:21:24.835] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed 3 entities]
-[10Dec2024 18:21:24.894] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed 3 entities]
-[10Dec2024 18:21:24.985] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed 2 entities]
-[10Dec2024 18:21:25.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed 2 entities]
-[10Dec2024 18:21:25.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed 2 entities]
-[10Dec2024 18:21:25.236] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Sapo]
-[10Dec2024 18:21:25.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed 3 entities]
-[10Dec2024 18:21:25.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Sapo]
-[10Dec2024 18:21:25.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed 2 entities]
-[10Dec2024 18:21:25.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Sapo]
-[10Dec2024 18:21:25.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed 2 entities]
-[10Dec2024 18:21:25.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed 2 entities]
-[10Dec2024 18:21:25.837] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Sapo]
-[10Dec2024 18:21:26.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Sapo]
-[10Dec2024 18:21:26.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Sapo]
-[10Dec2024 18:21:26.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Sapo]
-[10Dec2024 18:21:26.344] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Sapo]
-[10Dec2024 18:21:26.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed 2 entities]
-[10Dec2024 18:21:26.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Sapo]
-[10Dec2024 18:21:26.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed 2 entities]
-[10Dec2024 18:21:26.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Sapo]
-[10Dec2024 18:21:27.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Sapo]
-[10Dec2024 18:21:27.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Sapo]
-[10Dec2024 18:21:27.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Sapo]
-[10Dec2024 18:21:27.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Sapo]
-[10Dec2024 18:21:27.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed 2 entities]
-[10Dec2024 18:21:27.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Sapo]
-[10Dec2024 18:21:28.246] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Sapo]
-[10Dec2024 18:21:28.425] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Sapo]
-[10Dec2024 18:21:28.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Sapo]
-[10Dec2024 18:21:28.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Sapo]
-[10Dec2024 18:21:28.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed 2 entities]
-[10Dec2024 18:21:29.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Sapo]
-[10Dec2024 18:21:32.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Killed Sapo]
-[10Dec2024 18:21:38.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Gamerule commandBlockOutput is now set to: false]
-[10Dec2024 18:22:25.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> murio alguien?
-[10Dec2024 18:23:30.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaaa has made the advancement [Bloody Stream]
-[10Dec2024 18:24:59.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> si les molesta el revil en la pantalla a cada rato saquense el pack de textura
-[10Dec2024 18:25:08.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> pero no van a poder ver las proximas ruletas
-[10Dec2024 18:25:11.871] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> si yo me lo quite :v :v
-[10Dec2024 18:25:15.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> yo no aviso cuando hay una
-[10Dec2024 18:27:08.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaaa has made the advancement [Blood Bank]
-[10Dec2024 18:28:36.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> esta en pacifico?
-[10Dec2024 18:28:41.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <genaaa> no
-[10Dec2024 18:29:20.894] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
-[10Dec2024 18:31:40.653] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2068ms or 41 ticks behind
-[10Dec2024 18:32:14.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaaa has made the advancement [Who You Gonna Call?]
-[10Dec2024 18:32:20.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz has made the advancement [Who You Gonna Call?]
-[10Dec2024 18:32:39.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaaa has made the advancement [Monster Hunter]
-[10Dec2024 18:33:02.339] [Server thread/WARN] [net.geforcemods.securitycraft.SecurityCraft/]: Player "genaaa" tried to enter a passcode into "Passcode-protected Chest" at position [ResourceKey[minecraft:dimension / minecraft:overworld] BlockPos{x=-219, y=72, z=-1097}] too quickly!
-[10Dec2024 18:33:10.738] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz was slain by Rana Gigante
-[10Dec2024 18:33:16.023] [Server thread/INFO] [journeymap/]: mp (FileLoaded) Setting config file to version "5.10.3": journeymap.server.mp.config
-[10Dec2024 18:33:16.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> lol
-[10Dec2024 18:33:28.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jhonnyxd0711> LOL
-[10Dec2024 18:33:36.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Added tag 'anim.muerte' to 6 entities]
-[10Dec2024 18:33:39.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jhonnyxd0711> gracias por jugar
-[10Dec2024 18:33:46.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> nos vemos en el gulag
-[10Dec2024 18:34:04.468] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> que dicen gente le doy otra oportunidad?
-[10Dec2024 18:34:12.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jhonnyxd0711> no
-[10Dec2024 18:34:15.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: After genaaa was slain by Ghost, they gave up
-[10Dec2024 18:34:18.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <genaaa> rana puta
-[10Dec2024 18:34:22.284] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> coño
-[10Dec2024 18:34:23.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Added tag 'anim.muerte' to 6 entities]
-[10Dec2024 18:34:26.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz was slain by Ghost
-[10Dec2024 18:34:27.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> emmm
-[10Dec2024 18:34:33.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <genaaa> bldoo es imposible con la rana
-[10Dec2024 18:34:35.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set joAcxz's game mode to Spectator Mode]
-[10Dec2024 18:34:39.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jhonnyxd0711> gracias por jugar
-[10Dec2024 18:34:40.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set genaaa's game mode to Spectator Mode]
-[10Dec2024 18:34:49.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <joAcxz> agus que verga son esos fantasmas
-[10Dec2024 18:34:53.931] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <genaaa> y los fantasmaaas
-[10Dec2024 18:34:59.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> suerte en el gulag
-[10Dec2024 18:35:14.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Teleported hola7 to joAcxz]
-[10Dec2024 18:35:24.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Teleported genaaa to hola7]
-[10Dec2024 18:35:28.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Teleported joAcxz to hola7]
-[10Dec2024 18:35:45.449] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
-[10Dec2024 18:36:05.035] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4601ms or 92 ticks behind
-[10Dec2024 18:36:30.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set joAcxz's game mode to Survival Mode]
-[10Dec2024 18:36:38.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set genaaa's game mode to Survival Mode]
-[10Dec2024 18:36:49.007] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: joAcxz lost connection: Disconnected
-[10Dec2024 18:36:49.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz left the game
-[10Dec2024 18:37:06.426] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: joAcxz[/127.112.204.214:36857] logged in with entity id 29873 at (-221.4904633063487, 68.0, -1102.300000011921)
-[10Dec2024 18:37:06.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz joined the game
-[10Dec2024 18:37:33.634] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhonnyxd0711 has made the advancement [Monster Hunter]
-[10Dec2024 18:37:36.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xGab has made the advancement [Monster Hunter]
-[10Dec2024 18:37:50.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaaa has made the advancement [I always come back]
-[10Dec2024 18:38:10.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xGab has made the advancement [The Parrots and the Bats]
-[10Dec2024 18:39:35.839] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2054ms or 41 ticks behind
-[10Dec2024 18:40:01.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz was burnt to a crisp whilst fighting hola7
-[10Dec2024 18:40:08.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> y ese pvp?
-[10Dec2024 18:40:11.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> y luego el psicopata soy yo
-[10Dec2024 18:40:15.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> revivio y lo mate
-[10Dec2024 18:40:22.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jhonnyxd0711> que bolas
-[10Dec2024 18:40:23.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> asi no se puede
-[10Dec2024 18:40:33.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jhonnyxd0711> pero hola tu no eres nutria¿?
-[10Dec2024 18:40:44.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> si
-[10Dec2024 18:41:33.763] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> nutria
-[10Dec2024 18:41:40.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> voy
-[10Dec2024 18:41:54.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Teleported hola7 to Remolach0]
-[10Dec2024 18:44:48.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Teleported hola7 to joAcxz]
-[10Dec2024 18:47:43.460] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-900, y=76, z=-281} BlockPos{x=-900, y=76, z=-280}
-[10Dec2024 18:47:43.514] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-900, y=76, z=-281} BlockPos{x=-900, y=76, z=-280}
-[10Dec2024 18:49:48.086] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[10Dec2024 18:51:01.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Teleported hola7 to jhonnyxd0711]
-[10Dec2024 18:52:55.917] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> nuestro buff es tener hambre
-[10Dec2024 18:53:02.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> y el debuff ser rapidos
-[10Dec2024 18:53:18.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> es lo que eligieron
-[10Dec2024 18:54:34.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Added tag 'anim.ruleta.turqueza' to 6 entities]
-[10Dec2024 18:54:42.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> chupame las bolas
-[10Dec2024 18:55:32.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> un totem por miembro del team
-[10Dec2024 18:55:50.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> 1 por cada 2 stacks de cobre
-[10Dec2024 18:56:11.816] [Server thread/INFO] [journeymap/]: mp (FileLoaded) Setting config file to version "5.10.3": journeymap.server.mp.config
-[10Dec2024 19:00:17.550] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: hola7 moved too quickly! 2.2400367624892397,0.0,-9.764381529409945
-[10Dec2024 19:00:23.593] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: joAcxz lost connection: Timed out
-[10Dec2024 19:00:23.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz left the game
-[10Dec2024 19:00:23.658] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[10Dec2024 19:01:14.373] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: joAcxz[/127.112.204.214:38463] logged in with entity id 48739 at (-220.85023677064, 73.0, -1095.4720282518351)
-[10Dec2024 19:01:14.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz joined the game
-[10Dec2024 19:01:15.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xGab blew up
-[10Dec2024 19:01:28.564] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Added tag 'anim.muerte' to 6 entities]
-[10Dec2024 19:01:30.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <joAcxz> t
-[10Dec2024 19:01:35.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set xGab's game mode to Spectator Mode]
-[10Dec2024 19:01:39.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <genaaa> que buena broma
-[10Dec2024 19:02:00.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Teleported xGab to hola7]
-[10Dec2024 19:02:43.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set xGab's game mode to Survival Mode]
-[10Dec2024 19:03:17.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <genaaa> chicos es de noche o de dia?
-[10Dec2024 19:03:33.652] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: hola7 moved too quickly! 1.2299036178957294,0.0,9.966948116937829
-[10Dec2024 19:03:44.605] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: joAcxz lost connection: Timed out
-[10Dec2024 19:03:44.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz left the game
-[10Dec2024 19:03:44.694] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[10Dec2024 19:03:52.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Teleported hola7 to genaaa]
-[10Dec2024 19:04:46.042] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: joAcxz[/127.112.204.214:49449] logged in with entity id 51541 at (-220.70913685258037, 72.0, -1100.3316580903127)
-[10Dec2024 19:04:46.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz joined the game
-[10Dec2024 19:05:11.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <joAcxz> bromitas no
-[10Dec2024 19:06:06.646] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: joAcxz was kicked for floating too long!
-[10Dec2024 19:06:06.692] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: joAcxz lost connection: Flying is not enabled on this server
-[10Dec2024 19:06:06.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz left the game
-[10Dec2024 19:06:41.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaaa has made the advancement [Book of Monsters]
-[10Dec2024 19:07:10.326] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: joAcxz[/127.112.204.214:33429] logged in with entity id 53274 at (-245.01209140271456, 73.16610926093821, -1110.326758395916)
-[10Dec2024 19:07:10.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz joined the game
-[10Dec2024 19:07:30.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <joAcxz> dios
-[10Dec2024 19:08:12.609] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: hola7 lost connection: Timed out
-[10Dec2024 19:08:12.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 left the game
-[10Dec2024 19:08:25.470] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: joAcxz lost connection: Timed out
-[10Dec2024 19:08:25.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz left the game
-[10Dec2024 19:08:25.935] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: hola7[/127.129.251.23:50769] logged in with entity id 53929 at (-236.42832446374914, 71.0, -1109.7543105028753)
-[10Dec2024 19:08:25.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 joined the game
-[10Dec2024 19:09:12.860] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jhonnyxd0711 lost connection: Timed out
-[10Dec2024 19:09:12.861] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhonnyxd0711 left the game
-[10Dec2024 19:09:42.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set own game mode to Spectator Mode]
-[10Dec2024 19:10:01.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Teleported hola7 to Remolach0]
-[10Dec2024 19:10:09.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set own game mode to Survival Mode]
-[10Dec2024 19:10:11.551] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jhonnyxd0711[/127.227.115.134:55839] logged in with entity id 56103 at (-908.0512468913432, 63.5, -276.9801046773509)
-[10Dec2024 19:10:11.579] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhonnyxd0711 joined the game
-[10Dec2024 19:10:12.101] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
-[10Dec2024 19:10:16.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set own game mode to Spectator Mode]
-[10Dec2024 19:10:17.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set own game mode to Creative Mode]
-[10Dec2024 19:10:29.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> nutria
-[10Dec2024 19:10:36.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> tengo 2 stacks de cobre
-[10Dec2024 19:12:09.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 has made the advancement [Clash of the Titans]
-[10Dec2024 19:12:47.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set own game mode to Survival Mode]
-[10Dec2024 19:12:52.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set own game mode to Creative Mode]
-[10Dec2024 19:14:25.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Remolach0 has made the advancement [Sweet Dreams]
-[10Dec2024 19:16:59.926] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: joAcxz[/127.112.204.214:60217] logged in with entity id 61716 at (-218.57335738820296, 73.0, -1095.4391406342081)
-[10Dec2024 19:16:59.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz joined the game
-[10Dec2024 19:17:45.069] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: joAcxz lost connection: Timed out
-[10Dec2024 19:17:45.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz left the game
-[10Dec2024 19:20:00.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> hola
-[10Dec2024 19:20:18.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> nutri
-[10Dec2024 19:20:27.212] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2028ms or 40 ticks behind
-[10Dec2024 19:20:28.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> tenemos ya 4 stacks de cobre
-[10Dec2024 19:20:53.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> disc
-[10Dec2024 19:23:36.542] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
-[10Dec2024 19:23:43.025] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jhonnyxd0711 lost connection: Timed out
-[10Dec2024 19:23:43.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhonnyxd0711 left the game
-[10Dec2024 19:23:43.152] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[10Dec2024 19:23:54.116] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2582ms or 51 ticks behind
-[10Dec2024 19:24:07.833] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LaViejaDeAgustin[/127.243.114.140:44395] logged in with entity id 68096 at (1259.5, 66.0, -756.5)
-[10Dec2024 19:24:07.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LaViejaDeAgustin joined the game
-[10Dec2024 19:24:13.711] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4627ms or 92 ticks behind
-[10Dec2024 19:24:21.191] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jhonnyxd0711[/127.227.115.134:33379] logged in with entity id 68490 at (-886.7887950999132, 64.2531999805212, -288.6527016125304)
-[10Dec2024 19:24:21.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhonnyxd0711 joined the game
-[10Dec2024 19:24:27.777] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 has made the advancement [Into Fire]
-[10Dec2024 19:24:41.956] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 13272ms or 265 ticks behind
-[10Dec2024 19:25:08.346] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 11412ms or 228 ticks behind
-[10Dec2024 19:25:35.964] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 12629ms or 252 ticks behind
-[10Dec2024 19:25:49.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <genaaa> agis
-[10Dec2024 19:26:01.770] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10836ms or 216 ticks behind
-[10Dec2024 19:26:03.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Teleported hola7 to genaaa]
-[10Dec2024 19:26:12.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Teleported LaViejaDeAgustin to genaaa]
-[10Dec2024 19:26:24.882] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8148ms or 162 ticks behind
-[10Dec2024 19:26:46.535] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6700ms or 134 ticks behind
-[10Dec2024 19:27:08.299] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6765ms or 135 ticks behind
-[10Dec2024 19:27:28.250] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4966ms or 99 ticks behind
-[10Dec2024 19:27:46.142] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2908ms or 58 ticks behind
-[10Dec2024 19:28:05.433] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4299ms or 85 ticks behind
-[10Dec2024 19:28:21.898] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Teleported hola7 to jhonnyxd0711]
-[10Dec2024 19:28:26.901] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6517ms or 130 ticks behind
-[10Dec2024 19:28:48.012] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6128ms or 122 ticks behind
-[10Dec2024 19:29:11.022] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8038ms or 160 ticks behind
-[10Dec2024 19:29:32.218] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6234ms or 124 ticks behind
-[10Dec2024 19:29:53.990] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6806ms or 136 ticks behind
-[10Dec2024 19:30:16.771] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7786ms or 155 ticks behind
-[10Dec2024 19:30:40.230] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8496ms or 169 ticks behind
-[10Dec2024 19:31:03.042] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7858ms or 157 ticks behind
-[10Dec2024 19:31:25.421] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7387ms or 147 ticks behind
-[10Dec2024 19:31:45.840] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5456ms or 109 ticks behind
-[10Dec2024 19:31:59.539] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rejecting UseItemOnPacket from xGab: Location (-958.0824000835419, 98.7336790561676, -337.0) too far away from hit block BlockPos{x=-959, y=97, z=-337}.
-[10Dec2024 19:31:59.541] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rejecting UseItemOnPacket from xGab: Location (-958.0824000835419, 98.7336790561676, -337.0) too far away from hit block BlockPos{x=-959, y=97, z=-337}.
-[10Dec2024 19:32:07.354] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6520ms or 130 ticks behind
-[10Dec2024 19:32:28.400] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6066ms or 121 ticks behind
-[10Dec2024 19:32:51.552] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8168ms or 163 ticks behind
-[10Dec2024 19:33:12.888] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6354ms or 127 ticks behind
-[10Dec2024 19:33:34.980] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7096ms or 141 ticks behind
-[10Dec2024 19:33:56.051] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6117ms or 122 ticks behind
-[10Dec2024 19:34:16.753] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5719ms or 114 ticks behind
-[10Dec2024 19:34:31.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 has made the advancement [Take Aim]
-[10Dec2024 19:34:38.081] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6347ms or 126 ticks behind
-[10Dec2024 19:34:38.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> 2 corazones
-[10Dec2024 19:34:44.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> y no regenero por el hambre
-[10Dec2024 19:34:58.780] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5746ms or 114 ticks behind
-[10Dec2024 19:35:21.012] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7278ms or 145 ticks behind
-[10Dec2024 19:35:28.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LaViejaDeAgustin has made the advancement [Blood Bank]
-[10Dec2024 19:35:33.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> vaca con regeneracion
-[10Dec2024 19:35:34.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> y esto?
-[10Dec2024 19:35:43.134] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7149ms or 142 ticks behind
-[10Dec2024 19:35:45.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> por ahora no importa
-[10Dec2024 19:36:05.736] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7652ms or 153 ticks behind
-[10Dec2024 19:36:26.229] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5495ms or 109 ticks behind
-[10Dec2024 19:36:30.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Teleported hola7 to genaaa]
-[10Dec2024 19:36:49.337] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8153ms or 163 ticks behind
-[10Dec2024 19:36:54.406] [Server thread/WARN] [net.geforcemods.securitycraft.SecurityCraft/]: Player "Remolach0" tried to enter a passcode into "Display Case" at position [ResourceKey[minecraft:dimension / minecraft:overworld] BlockPos{x=-958, y=102, z=-342}] too quickly!
-[10Dec2024 19:37:08.965] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4631ms or 92 ticks behind
-[10Dec2024 19:37:28.018] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4084ms or 81 ticks behind
-[10Dec2024 19:37:38.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Teleported hola7 to Remolach0]
-[10Dec2024 19:37:50.768] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7784ms or 155 ticks behind
-[10Dec2024 19:37:56.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> eres omnipresente
-[10Dec2024 19:38:01.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> es increible
-[10Dec2024 19:38:11.237] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5502ms or 110 ticks behind
-[10Dec2024 19:38:33.789] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7555ms or 151 ticks behind
-[10Dec2024 19:38:55.588] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6804ms or 136 ticks behind
-[10Dec2024 19:39:05.890] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> nutria
-[10Dec2024 19:39:09.931] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> mision diaria
-[10Dec2024 19:39:17.692] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7108ms or 142 ticks behind
-[10Dec2024 19:39:20.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaaa has made the advancement [Cover Me with Diamonds]
-[10Dec2024 19:39:37.118] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4434ms or 88 ticks behind
-[10Dec2024 19:39:55.278] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3193ms or 63 ticks behind
-[10Dec2024 19:40:15.694] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5460ms or 109 ticks behind
-[10Dec2024 19:40:27.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Added tag 'anim.ruleta.amarilla' to 6 entities]
-[10Dec2024 19:40:37.917] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7233ms or 144 ticks behind
-[10Dec2024 19:41:03.527] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10642ms or 212 ticks behind
-[10Dec2024 19:41:13.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jhonnyxd0711> wwwwwwwwwwww
-[10Dec2024 19:41:24.331] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5847ms or 116 ticks behind
-[10Dec2024 19:41:26.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> DUERMAN
-[10Dec2024 19:41:29.366] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> DUERMAN
-[10Dec2024 19:41:32.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> DUERMAN
-[10Dec2024 19:41:35.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> el que no duerma se la mama a la nutria
-[10Dec2024 19:41:36.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <genaaa> no tenemos cam
-[10Dec2024 19:41:41.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> a ok
-[10Dec2024 19:41:43.699] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4415ms or 88 ticks behind
-[10Dec2024 19:41:46.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> putos pobres
-[10Dec2024 19:42:00.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <genaaa> callense no tienen ni una casa
-[10Dec2024 19:42:02.288] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3604ms or 72 ticks behind
-[10Dec2024 19:42:11.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <genaaa> viven en el culo d la nutria
-[10Dec2024 19:42:20.454] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3170ms or 63 ticks behind
-[10Dec2024 19:42:20.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> calma que me ofendo
-[10Dec2024 19:42:27.388] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> y no vas a querer que me ofenda
-[10Dec2024 19:42:30.618] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jhonnyxd0711> shh primero saquese el huevo de la boca bro
-[10Dec2024 19:42:37.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> coño
-[10Dec2024 19:42:39.093] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3659ms or 73 ticks behind
-[10Dec2024 19:42:43.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <genaaa> jajajaj
-[10Dec2024 19:42:57.458] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3374ms or 67 ticks behind
-[10Dec2024 19:43:14.537] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2103ms or 42 ticks behind
-[10Dec2024 19:43:18.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Teleported hola7 to LaViejaDeAgustin]
-[10Dec2024 19:43:35.849] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6315ms or 126 ticks behind
-[10Dec2024 19:43:53.821] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2987ms or 59 ticks behind
-[10Dec2024 19:44:09.761] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jhonnyxd0711 lost connection: Timed out
-[10Dec2024 19:44:09.763] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhonnyxd0711 left the game
-[10Dec2024 19:44:09.843] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[10Dec2024 19:44:11.474] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2690ms or 53 ticks behind
-[10Dec2024 19:44:17.651] [Server thread/INFO] [journeymap/]: mp (FileLoaded) Setting config file to version "5.10.3": journeymap.server.mp.config
-[10Dec2024 19:44:29.634] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3200ms or 64 ticks behind
-[10Dec2024 19:44:49.452] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4818ms or 96 ticks behind
-[10Dec2024 19:45:09.722] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5288ms or 105 ticks behind
-[10Dec2024 19:45:34.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xGab has made the advancement [What a Deal!]
-[10Dec2024 19:46:42.929] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jhonnyxd0711[/127.227.115.134:44007] logged in with entity id 81149 at (-898.3000000119209, 80.0, -281.1333536678656)
-[10Dec2024 19:46:42.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhonnyxd0711 joined the game
-[10Dec2024 19:46:50.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LaViejaDeAgustin> agus
-[10Dec2024 19:47:16.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> voy a estar ausente
-[10Dec2024 19:48:12.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> aparecen mas sapos que personas
-[10Dec2024 19:48:18.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> SEÑORES
-[10Dec2024 19:48:20.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> ESTAN
-[10Dec2024 19:48:23.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> COJIENDO
-[10Dec2024 19:48:30.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> VAMOOOOOOS
-[10Dec2024 19:48:35.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> sexo
-[10Dec2024 19:51:13.805] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2021ms or 40 ticks behind
-[10Dec2024 19:51:18.650] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-938, y=73, z=-270} BlockPos{x=-939, y=72, z=-270}
-[10Dec2024 19:52:54.549] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2065ms or 41 ticks behind
-[10Dec2024 19:53:18.234] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8700ms or 174 ticks behind
-[10Dec2024 19:53:44.813] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 11579ms or 231 ticks behind
-[10Dec2024 19:54:03.230] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3446ms or 68 ticks behind
-[10Dec2024 19:54:22.487] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4303ms or 86 ticks behind
-[10Dec2024 19:54:40.483] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2998ms or 59 ticks behind
-[10Dec2024 19:55:03.736] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8302ms or 166 ticks behind
-[10Dec2024 19:55:32.536] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 13802ms or 276 ticks behind
-[10Dec2024 19:55:52.010] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4476ms or 89 ticks behind
-[10Dec2024 19:55:56.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> volvi
-[10Dec2024 19:56:05.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> quien necesitaba algo?
-[10Dec2024 19:56:11.529] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4545ms or 90 ticks behind
-[10Dec2024 19:56:35.102] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8618ms or 172 ticks behind
-[10Dec2024 19:56:57.895] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7811ms or 156 ticks behind
-[10Dec2024 19:57:18.047] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5163ms or 103 ticks behind
-[10Dec2024 19:57:36.133] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3099ms or 61 ticks behind
-[10Dec2024 19:57:37.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> nadie
-[10Dec2024 19:57:39.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <genaaa> agus
-[10Dec2024 19:57:42.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <genaaa> rapido
-[10Dec2024 19:57:43.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> voy
-[10Dec2024 19:57:54.071] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2987ms or 59 ticks behind
-[10Dec2024 19:58:00.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Teleported hola7 to LaViejaDeAgustin]
-[10Dec2024 19:58:13.832] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4798ms or 95 ticks behind
-[10Dec2024 19:58:31.638] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2854ms or 57 ticks behind
-[10Dec2024 19:58:37.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> ENTIDAD
-[10Dec2024 19:58:52.309] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5675ms or 113 ticks behind
-[10Dec2024 19:58:53.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 has made the advancement [Sea? Not a Problem]
-[10Dec2024 19:59:11.178] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3894ms or 77 ticks behind
-[10Dec2024 19:59:28.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LaViejaDeAgustin has made the advancement [I always come back]
-[10Dec2024 19:59:29.003] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2869ms or 57 ticks behind
-[10Dec2024 19:59:38.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> referencia
-[10Dec2024 19:59:46.647] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2663ms or 53 ticks behind
-[10Dec2024 19:59:46.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Teleported hola7 to Remolach0]
-[10Dec2024 20:00:04.147] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2513ms or 50 ticks behind
-[10Dec2024 20:00:25.544] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6410ms or 128 ticks behind
-[10Dec2024 20:00:29.277] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of LaViejaDeAgustin) moved wrongly! 0.4627074240221418
-[10Dec2024 20:00:29.335] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of LaViejaDeAgustin) moved wrongly! 0.8931178643247222
-[10Dec2024 20:00:29.423] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of LaViejaDeAgustin) moved wrongly! 1.4047129450269722
-[10Dec2024 20:00:29.424] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of LaViejaDeAgustin) moved wrongly! 1.7558967559668872
-[10Dec2024 20:00:29.464] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of LaViejaDeAgustin) moved wrongly! 2.107082362904521
-[10Dec2024 20:00:29.544] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of LaViejaDeAgustin) moved wrongly! 2.458269586240135
-[10Dec2024 20:00:29.585] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of LaViejaDeAgustin) moved wrongly! 0.351188678093763
-[10Dec2024 20:00:29.627] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of LaViejaDeAgustin) moved wrongly! 0.3511899873759603
-[10Dec2024 20:00:29.702] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of LaViejaDeAgustin) moved wrongly! 0.6987631537822381
-[10Dec2024 20:00:43.429] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2895ms or 57 ticks behind
-[10Dec2024 20:01:02.380] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3996ms or 79 ticks behind
-[10Dec2024 20:01:20.860] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3526ms or 70 ticks behind
-[10Dec2024 20:01:41.448] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5614ms or 112 ticks behind
-[10Dec2024 20:04:34.125] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> para cuando momento nutria?
-[10Dec2024 20:04:42.571] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2036ms or 40 ticks behind
-[10Dec2024 20:05:03.081] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2247ms or 44 ticks behind
-[10Dec2024 20:05:20.805] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2771ms or 55 ticks behind
-[10Dec2024 20:05:37.958] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2174ms or 43 ticks behind
-[10Dec2024 20:08:28.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> LaViejaDeAgustin a dos coras y medio
-[10Dec2024 20:08:30.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> ojo
-[10Dec2024 20:10:58.935] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
-[10Dec2024 20:11:03.812] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Remolach0) moved too quickly! -8.479452897987585,0.0,6.0023925031719365
-[10Dec2024 20:11:26.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Remolach0 has made the advancement [You Are A Pirate]
-[10Dec2024 20:11:27.589] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 13655ms or 273 ticks behind
-[10Dec2024 20:11:59.550] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 16966ms or 339 ticks behind
-[10Dec2024 20:12:23.045] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8511ms or 170 ticks behind
-[10Dec2024 20:12:41.942] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3908ms or 78 ticks behind
-[10Dec2024 20:12:59.738] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2804ms or 56 ticks behind
-[10Dec2024 20:13:17.544] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2810ms or 56 ticks behind
-[10Dec2024 20:13:27.361] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> nutria
-[10Dec2024 20:13:33.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> hay sapos en el casino
-[10Dec2024 20:13:38.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> casi muero
-[10Dec2024 20:13:45.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LaViejaDeAgustin> no me importa
-[10Dec2024 20:13:50.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LaViejaDeAgustin> agus tepeame al casino
-[10Dec2024 20:13:55.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LaViejaDeAgustin> tengo que hacer negocios
-[10Dec2024 20:13:57.246] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
-[10Dec2024 20:14:15.002] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2018ms or 40 ticks behind
-[10Dec2024 20:14:32.591] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2607ms or 52 ticks behind
-[10Dec2024 20:14:51.862] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2028ms or 40 ticks behind
-[10Dec2024 20:15:58.835] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Teleported LaViejaDeAgustin to hola7]
-[10Dec2024 20:17:24.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> soy un dios
-[10Dec2024 20:17:41.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> nutria
-[10Dec2024 20:17:45.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> encontre un bug
-[10Dec2024 20:17:56.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> si?
-[10Dec2024 20:17:59.782] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> mira
-[10Dec2024 20:18:13.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> veo
-[10Dec2024 20:18:15.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> este slot se puede girar sin deditas naranjas
-[10Dec2024 20:18:22.468] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> y no suelta nada
-[10Dec2024 20:18:24.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> es una animacion
-[10Dec2024 20:18:30.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> porque ya fue usado
-[10Dec2024 20:18:36.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> es tipo las maquinas arcade
-[10Dec2024 20:18:41.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> andan igual sin ficha
-[10Dec2024 20:18:44.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> pero no dan nada
-[10Dec2024 20:18:55.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> si quieren fichas me pueden dar otras deditas
-[10Dec2024 20:19:03.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> es asi el comercio de aca
-[10Dec2024 20:19:14.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set own game mode to Survival Mode]
-[10Dec2024 20:19:17.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set own game mode to Creative Mode]
-[10Dec2024 20:19:30.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> nutria
-[10Dec2024 20:19:51.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> 5
-[10Dec2024 20:20:09.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> gracias
-[10Dec2024 20:20:11.921] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> 5 = 8
-[10Dec2024 20:21:21.492] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rejecting UseItemOnPacket from Remolach0: Location (-954.4289345741272, 98.5047060251236, -346.0) too far away from hit block BlockPos{x=-955, y=97, z=-347}.
-[10Dec2024 20:22:05.342] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LaViejaDeAgustin lost connection: Disconnected
-[10Dec2024 20:22:05.343] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LaViejaDeAgustin left the game
-[10Dec2024 20:22:07.873] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2039ms or 40 ticks behind
-[10Dec2024 20:23:15.782] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jhonnyxd0711> nutria quiero cambiar
-[10Dec2024 20:23:27.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> mano se desaparecieron mis deditas
-[10Dec2024 20:24:18.178] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LaViejaDeAgustin[/127.243.114.140:43627] logged in with entity id 118748 at (-985.4015669397019, 77.0, -275.5256884572809)
-[10Dec2024 20:24:18.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LaViejaDeAgustin joined the game
-[10Dec2024 20:24:26.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set own game mode to Survival Mode]
-[10Dec2024 20:24:27.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LaViejaDeAgustin has made the advancement [Monster Hunter]
-[10Dec2024 20:24:31.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set own game mode to Creative Mode]
-[10Dec2024 20:24:42.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> ya las tengo
-[10Dec2024 20:24:43.463] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: genaaa lost connection: Timed out
-[10Dec2024 20:24:43.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaaa left the game
-[10Dec2024 20:24:57.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> QUIEN ES EL RETRASADO QUE ROMPIO MIS MAQUINAS DEL CASINO?
-[10Dec2024 20:25:06.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> como?
-[10Dec2024 20:25:15.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> yo me fui pero no tengo nada
-[10Dec2024 20:25:18.230] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> YA VAN 2 VECES QUE DESAPARECE LA MISMA MAQUINA
-[10Dec2024 20:25:36.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LaViejaDeAgustin has made the advancement [Who You Gonna Call?]
-[10Dec2024 20:25:40.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> lol
-[10Dec2024 20:25:46.238] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: genaaa[/127.175.82.2:36985] logged in with entity id 119328 at (-223.77940812321415, 72.0, -1095.300000011921)
-[10Dec2024 20:25:46.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaaa joined the game
-[10Dec2024 20:25:48.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> SI LO VEO EN LA BASE O COFRE O INVENTARIO DE ALGUIEN CAGA TODO EL EQUIPO
-[10Dec2024 20:25:51.431] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2047ms or 40 ticks behind
-[10Dec2024 20:26:02.797] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@379832df[id=<null>,name=Weckstone,properties={},legacy=false] (/127.37.245.80:34967) lost connection: Disconnected
-[10Dec2024 20:26:03.867] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> ASIQUE MEJOR QUE VENGA EL QUE ME LA ROBO Y NO PASA NADA
-[10Dec2024 20:26:07.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> en mi inv no hay nada
-[10Dec2024 20:26:08.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> QUE ME LAS DEVUELVA
-[10Dec2024 20:26:27.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jhonnyxd0711> en el mio menos si quieres revisa
-[10Dec2024 20:26:37.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LaViejaDeAgustin has made the advancement [Best Friends Forever]
-[10Dec2024 20:26:38.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> REMO
-[10Dec2024 20:26:46.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> yo no las tengo
-[10Dec2024 20:27:30.907] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: genaaa lost connection: Disconnected
-[10Dec2024 20:27:30.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaaa left the game
-[10Dec2024 20:28:44.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> eemmmm
-[10Dec2024 20:28:46.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> nutria
-[10Dec2024 20:28:56.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> creo que se donde estan las maquinas
-[10Dec2024 20:28:58.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> ven
-[10Dec2024 20:29:21.647] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@16386a4f[id=<null>,name=Weckstone,properties={},legacy=false] (/127.37.245.80:55061) lost connection: Disconnected
-[10Dec2024 20:29:38.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LaViejaDeAgustin> me quedo aca un toque porque o si no me hacen pija
-[10Dec2024 20:29:48.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xGab has made the advancement [Who You Gonna Call?]
-[10Dec2024 20:29:57.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> ven
-[10Dec2024 20:30:04.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> L
-[10Dec2024 20:30:06.425] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> LaViejaDeAgustin
-[10Dec2024 20:30:19.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> zona safe
-[10Dec2024 20:30:33.625] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LaViejaDeAgustin> a re bien
-[10Dec2024 20:30:37.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> nutria
-[10Dec2024 20:30:39.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> mira
-[10Dec2024 20:30:54.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> a eso me referia yo
-[10Dec2024 20:31:19.871] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> quien trajo las cosas esas?
-[10Dec2024 20:31:24.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> ni idea
-[10Dec2024 20:31:26.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> me interesa saber
-[10Dec2024 20:31:28.403] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@3b45948d[id=<null>,name=Weckstone,properties={},legacy=false] (/127.37.245.80:53583) lost connection: Disconnected
-[10Dec2024 20:31:30.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jhonnyxd0711> no sabemos
-[10Dec2024 20:31:36.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> ok
-[10Dec2024 20:32:29.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Remolach0 has made the advancement [Close Quarters]
-[10Dec2024 20:33:59.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> cualquier cosa escriban por el chat
-[10Dec2024 20:34:08.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> me quitare kos audis pero puedo ver el mc
-[10Dec2024 20:34:12.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> cuidense
-[10Dec2024 20:35:20.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jhonnyxd0711> .-.
-[10Dec2024 20:36:16.119] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@2144ea4[id=<null>,name=Weckstone,properties={},legacy=false] (/127.37.245.80:43101) lost connection: Disconnected
-[10Dec2024 20:39:36.895] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2461ms or 49 ticks behind
-[10Dec2024 20:39:38.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Teleported LaViejaDeAgustin to hola7]
-[10Dec2024 20:39:47.382] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Teleported hola7 to jhonnyxd0711]
-[10Dec2024 20:40:00.002] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8118ms or 162 ticks behind
-[10Dec2024 20:40:17.353] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2369ms or 47 ticks behind
-[10Dec2024 20:40:35.517] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3183ms or 63 ticks behind
-[10Dec2024 20:40:41.249] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@37834184[id=<null>,name=Weckstone,properties={},legacy=false] (/127.37.245.80:43881) lost connection: Disconnected
-[10Dec2024 20:40:52.561] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2027ms or 40 ticks behind
-[10Dec2024 20:42:36.894] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
-[10Dec2024 20:42:55.173] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3289ms or 65 ticks behind
-[10Dec2024 20:43:52.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> eu
-[10Dec2024 20:44:04.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> gb tengo 2 stacks 14 de lana
-[10Dec2024 20:44:10.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> cuidado con los fantasmas
-[10Dec2024 20:44:14.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> gg
-[10Dec2024 20:44:28.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LaViejaDeAgustin> a re bien
-[10Dec2024 20:47:23.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> why :c
-[10Dec2024 20:47:42.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> 20 minutos? me estas jodiendo
-[10Dec2024 20:48:00.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> volvi
-[10Dec2024 20:48:04.977] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jhonnyxd0711 lost connection: Timed out
-[10Dec2024 20:48:04.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhonnyxd0711 left the game
-[10Dec2024 20:49:15.920] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jhonnyxd0711[/127.227.115.134:59775] logged in with entity id 137219 at (-879.8353389618355, 63.5, -270.32107866694304)
-[10Dec2024 20:49:15.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhonnyxd0711 joined the game
-[10Dec2024 20:51:13.829] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jhonnyxd0711 was kicked for floating too long!
-[10Dec2024 20:51:13.869] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jhonnyxd0711 lost connection: Flying is not enabled on this server
-[10Dec2024 20:51:13.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhonnyxd0711 left the game
-[10Dec2024 20:52:58.780] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2046ms or 40 ticks behind
-[10Dec2024 20:53:26.025] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jhonnyxd0711[/127.227.115.134:60957] logged in with entity id 140518 at (-885.75562966462, 64.74918707874468, -267.7371188093935)
-[10Dec2024 20:53:26.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhonnyxd0711 joined the game
-[10Dec2024 20:53:36.476] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Weckstone[/127.37.245.80:58727] logged in with entity id 140747 at (-838.5, 64.0, -86.5)
-[10Dec2024 20:53:36.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Weckstone joined the game
-[10Dec2024 20:53:36.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Weckstone has made the advancement [Ice and Fire]
-[10Dec2024 20:53:43.003] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-839, y=65, z=-83}
-[10Dec2024 20:53:43.272] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-839, y=65, z=-83}
-[10Dec2024 20:53:45.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> 4K?????
-[10Dec2024 20:53:49.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> ah
-[10Dec2024 20:53:52.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> es la nutria
-[10Dec2024 20:54:25.969] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2035ms or 40 ticks behind
-[10Dec2024 20:55:00.036] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
-[10Dec2024 20:55:23.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Made Weckstone a server operator]
-[10Dec2024 20:55:31.415] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xGab lost connection: Timed out
-[10Dec2024 20:55:31.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xGab left the game
-[10Dec2024 20:55:37.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> denle la bienvenida a la nutria 1
-[10Dec2024 20:55:48.203] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: xGab[/127.154.180.156:54861] logged in with entity id 143804 at (-919.6910087349581, 72.5, -287.2465067046147)
-[10Dec2024 20:55:48.211] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xGab joined the game
-[10Dec2024 20:56:25.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Weckstone: Set own game mode to Creative Mode]
-[10Dec2024 20:57:25.389] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
-[10Dec2024 20:57:57.208] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2073ms or 41 ticks behind
-[10Dec2024 20:58:16.366] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4181ms or 83 ticks behind
-[10Dec2024 20:58:34.442] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3108ms or 62 ticks behind
-[10Dec2024 20:58:52.844] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3409ms or 68 ticks behind
-[10Dec2024 20:59:50.557] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jhonnyxd0711 was kicked for floating too long!
-[10Dec2024 20:59:50.558] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jhonnyxd0711 lost connection: Flying is not enabled on this server
-[10Dec2024 20:59:50.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhonnyxd0711 left the game
-[10Dec2024 20:59:50.604] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[10Dec2024 21:00:14.614] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jhonnyxd0711[/127.227.115.134:59553] logged in with entity id 147887 at (-957.7042419019278, 105.00133597911214, -425.4458380739239)
-[10Dec2024 21:00:14.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhonnyxd0711 joined the game
-[10Dec2024 21:00:33.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Weckstone: Teleported jhonnyxd0711 to Weckstone]
-[10Dec2024 21:00:35.986] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[10Dec2024 21:03:03.072] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2038ms or 40 ticks behind
-[10Dec2024 21:03:21.004] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xGab moved too quickly! 2.193471404385946,-2.271167116951588,9.838434946010011
-[10Dec2024 21:03:21.215] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jhonnyxd0711 moved too quickly! -2.291905980274578,0.6142592750642422,9.753642099261867
-[10Dec2024 21:03:31.360] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 13326ms or 266 ticks behind
-[10Dec2024 21:03:50.091] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2057ms or 41 ticks behind
-[10Dec2024 21:03:59.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Weckstone has made the advancement [Stone Age]
-[10Dec2024 21:04:09.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LaViejaDeAgustin> n u t r i a
-[10Dec2024 21:04:11.248] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
-[10Dec2024 21:04:15.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Weckstone> que pasa
-[10Dec2024 21:04:22.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LaViejaDeAgustin> vos sos nutria?
-[10Dec2024 21:04:25.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Weckstone> si si
-[10Dec2024 21:04:32.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LaViejaDeAgustin> a re bien
-[10Dec2024 21:04:32.764] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6530ms or 130 ticks behind
-[10Dec2024 21:04:40.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Weckstone> te voy a banear si no me crees
-[10Dec2024 21:04:42.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LaViejaDeAgustin> no le queria mostrar una boludes a agus
-[10Dec2024 21:04:44.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Weckstone> joda joda
-[10Dec2024 21:04:49.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LaViejaDeAgustin> nono despreocupate que te creo
-[10Dec2024 21:04:54.910] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7176ms or 143 ticks behind
-[10Dec2024 21:05:01.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LaViejaDeAgustin> si queres veni y mira esta re piola
-[10Dec2024 21:05:14.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Weckstone: Teleported Weckstone to LaViejaDeAgustin]
-[10Dec2024 21:05:15.944] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6060ms or 121 ticks behind
-[10Dec2024 21:05:34.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Weckstone> lo meo
-[10Dec2024 21:05:36.792] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5858ms or 117 ticks behind
-[10Dec2024 21:05:42.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LaViejaDeAgustin> por que :(
-[10Dec2024 21:05:53.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Weckstone> que
-[10Dec2024 21:05:56.126] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4342ms or 86 ticks behind
-[10Dec2024 21:05:58.875] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LaViejaDeAgustin> por que lo meas
-[10Dec2024 21:06:02.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Weckstone> la pocion de curacioon te hace daño
-[10Dec2024 21:06:04.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Weckstone> wtf
-[10Dec2024 21:06:09.211] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LaViejaDeAgustin> a si
-[10Dec2024 21:06:12.550] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LaViejaDeAgustin> un quilombo
-[10Dec2024 21:06:16.537] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5453ms or 109 ticks behind
-[10Dec2024 21:06:26.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Weckstone> la de daño te da curacion?
-[10Dec2024 21:06:31.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LaViejaDeAgustin> para
-[10Dec2024 21:06:34.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LaViejaDeAgustin> dejo al dragon antes
-[10Dec2024 21:06:37.090] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5556ms or 111 ticks behind
-[10Dec2024 21:06:40.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Weckstone> si si
-[10Dec2024 21:06:41.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LaViejaDeAgustin> proba
-[10Dec2024 21:06:50.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Weckstone> no
-[10Dec2024 21:06:57.849] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5765ms or 115 ticks behind
-[10Dec2024 21:07:16.365] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3531ms or 70 ticks behind
-[10Dec2024 21:07:38.032] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6698ms or 133 ticks behind
-[10Dec2024 21:07:41.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: After LaViejaDeAgustin was killed by Weckstone using magic, they gave up
-[10Dec2024 21:07:48.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> lol
-[10Dec2024 21:07:53.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jhonnyxd0711> diavlo
-[10Dec2024 21:08:01.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jhonnyxd0711> gracias por jugar
-[10Dec2024 21:08:02.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Weckstone> ante todo no funciona
-[10Dec2024 21:08:02.838] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9854ms or 197 ticks behind
-[10Dec2024 21:08:03.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Added tag 'anim.muerte' to 6 entities]
-[10Dec2024 21:08:09.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Weckstone> no prueben los vampiros
-[10Dec2024 21:08:11.579] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Remolach0 has made the advancement [Smoke On The Water]
-[10Dec2024 21:08:15.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LaViejaDeAgustin> efectivamente no me curaba
-[10Dec2024 21:08:24.967] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7133ms or 142 ticks behind
-[10Dec2024 21:08:26.898] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhonnyxd0711 has made the advancement ['X' Marks the Spot]
-[10Dec2024 21:08:46.277] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6343ms or 126 ticks behind
-[10Dec2024 21:08:58.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Added tag 'anim.ruleta.verde' to 6 entities]
-[10Dec2024 21:09:06.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Weckstone> y esto
-[10Dec2024 21:09:07.041] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5807ms or 116 ticks behind
-[10Dec2024 21:09:27.039] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5005ms or 100 ticks behind
-[10Dec2024 21:09:42.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Applied effect Resistance to 6 targets]
-[10Dec2024 21:09:43.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Weckstone: Teleported Weckstone to jhonnyxd0711]
-[10Dec2024 21:09:47.308] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5274ms or 105 ticks behind
-[10Dec2024 21:09:56.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Applied effect Health Boost to 6 targets]
-[10Dec2024 21:09:58.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set own game mode to Survival Mode]
-[10Dec2024 21:10:03.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set own game mode to Creative Mode]
-[10Dec2024 21:10:10.674] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8390ms or 167 ticks behind
-[10Dec2024 21:10:32.372] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6738ms or 134 ticks behind
-[10Dec2024 21:10:41.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Weckstone: Teleported Weckstone to Remolach0]
-[10Dec2024 21:10:51.880] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4546ms or 90 ticks behind
-[10Dec2024 21:11:10.131] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3297ms or 65 ticks behind
-[10Dec2024 21:11:22.252] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> A LA MIERDA
-[10Dec2024 21:11:28.331] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2047ms or 40 ticks behind
-[10Dec2024 21:11:31.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> ALM
-[10Dec2024 21:11:40.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Weckstone> mis mas sinceras disculpas a los miembros
-[10Dec2024 21:11:46.144] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2860ms or 57 ticks behind
-[10Dec2024 21:12:03.656] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2522ms or 50 ticks behind
-[10Dec2024 21:12:06.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Summoned new Lightning Bolt]
-[10Dec2024 21:12:10.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Summoned new Lightning Bolt]
-[10Dec2024 21:12:12.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Summoned new Lightning Bolt]
-[10Dec2024 21:12:14.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Summoned new Lightning Bolt]
-[10Dec2024 21:12:15.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Summoned new Lightning Bolt]
-[10Dec2024 21:12:21.338] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2704ms or 54 ticks behind
-[10Dec2024 21:12:25.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Summoned new Lightning Bolt]
-[10Dec2024 21:12:36.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set the weather to rain & thunder]
-[10Dec2024 21:12:38.955] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2621ms or 52 ticks behind
-[10Dec2024 21:12:40.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Summoned new Lightning Bolt]
-[10Dec2024 21:12:42.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 was killed
-[10Dec2024 21:12:42.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Weckstone: Killed hola7]
-[10Dec2024 21:12:52.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> CADAVER DEL OWNER
-[10Dec2024 21:12:58.010] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4075ms or 81 ticks behind
-[10Dec2024 21:13:00.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Weckstone> GANO LOS MAMADORES
-[10Dec2024 21:13:16.178] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3194ms or 63 ticks behind
-[10Dec2024 21:13:37.102] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5968ms or 119 ticks behind
-[10Dec2024 21:14:24.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Teleported hola7 to LaViejaDeAgustin]
-[10Dec2024 21:14:25.238] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
-[10Dec2024 21:14:59.973] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2039ms or 40 ticks behind
-[10Dec2024 21:15:17.535] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2601ms or 52 ticks behind
-[10Dec2024 21:15:22.397] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Weckstone> SI TE HE FALLADO TE PIDO PERDON DE LA UNICA FORMA QUE SE
-[10Dec2024 21:15:31.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Teleported hola7 to Weckstone]
-[10Dec2024 21:15:35.364] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2830ms or 56 ticks behind
-[10Dec2024 21:15:39.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> dalee una mamada
-[10Dec2024 21:15:40.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Weckstone> Y ES ABRIENDO LAS PUERTAS DE MI CORAZON
-[10Dec2024 21:15:45.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Weckstone> no
-[10Dec2024 21:15:49.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Weckstone> demasiado
-[10Dec2024 21:15:53.690] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3356ms or 67 ticks behind
-[10Dec2024 21:16:00.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Weckstone> 0,04 de mierda = 2 chupaditas
-[10Dec2024 21:16:13.127] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LaViejaDeAgustin> tengo 3 de mierda
-[10Dec2024 21:16:15.133] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2049ms or 40 ticks behind
-[10Dec2024 21:16:16.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Weckstone> 0,3 de mierda = 1 chupadita
-[10Dec2024 21:16:18.319] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LaViejaDeAgustin lost connection: Disconnected
-[10Dec2024 21:16:18.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LaViejaDeAgustin left the game
-[10Dec2024 21:16:56.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> deja la paranoia
-[10Dec2024 21:16:58.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jhonnyxd0711> WEON NO TENEMOS NADA MANO
-[10Dec2024 21:17:04.334] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Weckstone> no tienen nada
-[10Dec2024 21:17:23.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> nutria owner
-[10Dec2024 21:17:27.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> haz un ring de box
-[10Dec2024 21:17:32.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> mañana
-[10Dec2024 21:17:39.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> ya se esta por terminar este dia
-[10Dec2024 21:18:06.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Remolach0 has made the advancement [Who You Gonna Call?]
-[10Dec2024 21:18:11.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Weckstone> hola
-[10Dec2024 21:18:13.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhonnyxd0711 has made the advancement [Who You Gonna Call?]
-[10Dec2024 21:18:16.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> veni
-[10Dec2024 21:18:20.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> ds
-[10Dec2024 21:18:21.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Weckstone> ok
-[10Dec2024 21:18:30.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> discord
-[10Dec2024 21:18:34.571] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LaViejaDeAgustin[/127.243.114.140:32963] logged in with entity id 162597 at (-237.61857406472524, 69.0, -1107.699999988079)
-[10Dec2024 21:18:34.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LaViejaDeAgustin joined the game
-[10Dec2024 21:18:37.947] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xGab lost connection: Disconnected
-[10Dec2024 21:18:37.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xGab left the game
-[10Dec2024 21:18:38.137] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
-[10Dec2024 21:18:48.676] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: xGab[/127.154.180.156:33139] logged in with entity id 163893 at (-906.6000741221102, 63.5, -276.352167497415)
-[10Dec2024 21:18:48.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xGab joined the game
-[10Dec2024 21:18:59.373] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6239ms or 124 ticks behind
-[10Dec2024 21:19:33.455] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2021ms or 40 ticks behind
-[10Dec2024 21:20:03.587] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
-[10Dec2024 21:20:33.490] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
-[10Dec2024 21:20:44.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> nutria owner out
-[10Dec2024 21:20:46.272] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: hola7 lost connection: Disconnected
-[10Dec2024 21:20:46.273] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 left the game
-[10Dec2024 21:20:53.382] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2098ms or 41 ticks behind
-[10Dec2024 21:21:02.564] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Weckstone> sobre los cielos se apalanca siempre yajirobai
-[10Dec2024 21:21:25.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LaViejaDeAgustin> ?
-[10Dec2024 21:22:12.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> lol
-[10Dec2024 21:23:10.384] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xGab lost connection: Disconnected
-[10Dec2024 21:23:10.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xGab left the game
-[10Dec2024 21:23:29.256] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@67c10903[id=<null>,name=xGab,properties={},legacy=false] (/127.154.180.156:55717) lost connection: Disconnected
-[10Dec2024 21:23:36.408] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: xGab[/127.154.180.156:53715] logged in with entity id 168054 at (-894.2931474173004, 63.0, -225.43098048749022)
-[10Dec2024 21:23:36.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xGab joined the game
-[10Dec2024 21:23:38.150] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2116ms or 42 ticks behind
-[10Dec2024 21:23:58.469] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5335ms or 106 ticks behind
-[10Dec2024 21:24:06.553] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xGab lost connection: Timed out
-[10Dec2024 21:24:06.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xGab left the game
-[10Dec2024 21:24:18.632] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: xGab[/127.154.180.156:52927] logged in with entity id 168788 at (-894.2931474173004, 63.0, -225.43098048749022)
-[10Dec2024 21:24:18.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xGab joined the game
-[10Dec2024 21:26:52.540] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
-[10Dec2024 21:27:13.267] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5733ms or 114 ticks behind
-[10Dec2024 21:27:17.742] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Remolach0) moved too quickly! 4.362063093407073,0.0,-9.166408014456806
-[10Dec2024 21:27:17.744] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Remolach0) moved too quickly! 4.501757879578122,0.0,-9.538570735511371
-[10Dec2024 21:27:39.148] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10914ms or 218 ticks behind
-[10Dec2024 21:28:07.369] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 13235ms or 264 ticks behind
-[10Dec2024 21:28:26.189] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[10Dec2024 21:28:29.139] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[10Dec2024 21:28:39.575] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 17241ms or 344 ticks behind
-[10Dec2024 21:28:54.967] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[10Dec2024 21:29:11.162] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 16628ms or 332 ticks behind
-[10Dec2024 21:29:15.436] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Remolach0 lost connection: Disconnected
-[10Dec2024 21:29:15.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Remolach0 left the game
-[10Dec2024 21:29:29.289] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2055ms or 41 ticks behind
-[10Dec2024 21:29:35.241] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: joAcxz[/127.112.204.214:59359] logged in with entity id 175933 at (-222.231750830637, 72.0, -1100.2285029629659)
-[10Dec2024 21:29:35.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz joined the game
-[10Dec2024 21:31:29.693] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@3d487498[id=<null>,name=Remolach0,properties={},legacy=false] (/127.93.139.23:37283) lost connection: Disconnected
-[10Dec2024 21:31:38.588] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Remolach0[/127.93.139.23:55357] logged in with entity id 177215 at (-783.2509096685403, 62.22861762853779, -1239.4520817262537)
-[10Dec2024 21:31:38.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Remolach0 joined the game
-[10Dec2024 21:31:41.732] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2447ms or 48 ticks behind
-[10Dec2024 21:32:06.381] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jhonnyxd0711 lost connection: Disconnected
-[10Dec2024 21:32:06.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhonnyxd0711 left the game
-[10Dec2024 21:32:11.695] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 15011ms or 300 ticks behind
-[10Dec2024 21:32:19.847] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xGab lost connection: Timed out
-[10Dec2024 21:32:19.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xGab left the game
-[10Dec2024 21:32:34.850] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8166ms or 163 ticks behind
-[10Dec2024 21:32:46.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Weckstone: Teleported Remolach0 to Weckstone]
-[10Dec2024 21:33:59.047] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Remolach0 lost connection: Disconnected
-[10Dec2024 21:33:59.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Remolach0 left the game
-[10Dec2024 21:33:59.303] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2069ms or 41 ticks behind
-[10Dec2024 21:39:35.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz has made the advancement [Cover Me with Diamonds]
-[10Dec2024 21:40:54.804] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: xGab[/127.154.180.156:52769] logged in with entity id 183607 at (-893.1941871613011, 63.5, -302.39566349732263)
-[10Dec2024 21:40:54.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xGab joined the game
-[10Dec2024 21:41:49.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Weckstone> hola gab
-[10Dec2024 21:44:01.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Weckstone> en 1 hora y 20 minutos cierra
+[11Dec2024 00:35:11.487] [main/INFO] [de.teamlapen.vampirism.core.ModEffects/]: Fixing vanilla night vision potion types
+[11Dec2024 00:35:11.528] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cpm] Found status: BETA Current: 0.6.19a Target: 0.6.19a
+[11Dec2024 00:35:11.533] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [itemborders] Starting version check at https://mc-update-check.anthonyhilyard.com/513769
+[11Dec2024 00:35:11.649] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [itemborders] Found status: OUTDATED Current: 1.2.1 Target: 1.2.2
+[11Dec2024 00:35:11.657] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vampirism] Starting version check at https://api.modrinth.com/updates/vampirism/forge_updates.json
+[11Dec2024 00:35:11.835] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vampirism] Found status: UP_TO_DATE Current: 1.10.11 Target: null
+[11Dec2024 00:35:11.836] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[11Dec2024 00:35:11.976] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.12
+[11Dec2024 00:35:11.976] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
+[11Dec2024 00:35:12.515] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: OUTDATED Current: 1.20.1-1.0.17 Target: 1.20.1-1.0.18
+[11Dec2024 00:35:18.293] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[11Dec2024 00:35:22.353] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/la-mamadera/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23161!/assets/.mcassetsroot' uses unexpected schema
+[11Dec2024 00:35:22.354] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/la-mamadera/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23161!/data/.mcassetsroot' uses unexpected schema
+[11Dec2024 00:35:25.410] [main/INFO] [de.teamlapen.vampirism.world.biome.OverworldModifications/]: Adding biome vampirism:vampire_forest to ParameterPoints [ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[-5666--500], offset=0], ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[500-4000], offset=0]] in Preset.OVERWORLD
+[11Dec2024 00:35:27.415] [main/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.forge.ForgePlatform
+[11Dec2024 00:35:31.411] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:general/umbrella as it's serializer returned null
+[11Dec2024 00:35:31.643] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:general/guidebook as it's serializer returned null
+[11Dec2024 00:35:31.661] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:vampire/blood_bottle as it's serializer returned null
+[11Dec2024 00:35:31.695] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 14 recipes
+[11Dec2024 00:35:32.681] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2865 advancements
+[11Dec2024 00:35:32.736] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
+[11Dec2024 00:35:32.782] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio entities
+[11Dec2024 00:35:32.798] [main/INFO] [de.teamlapen.vampirism.entity.player.skills.SkillTree/]: Loaded 53 skill nodes
+[11Dec2024 00:35:32.823] [main/INFO] [de.teamlapen.vampirism.entity.converted.VampirismEntityRegistry/]: Registered 14 convertibles
+[11Dec2024 00:35:35.621] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[11Dec2024 00:35:35.622] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[11Dec2024 00:35:35.622] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[11Dec2024 00:35:35.623] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[11Dec2024 00:35:36.207] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[11Dec2024 00:35:36.612] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[11Dec2024 00:35:36.902] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11Dec2024 00:35:36.903] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[11Dec2024 00:35:36.904] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11Dec2024 00:35:36.904] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[11Dec2024 00:35:37.180] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[11Dec2024 00:35:37.196] [Thread-3/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[11Dec2024 00:35:37.978] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[11Dec2024 00:35:39.122] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / minecraft:overworld] with concurrent set.
+[11Dec2024 00:36:13.483] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / minecraft:the_end] with concurrent set.
+[11Dec2024 00:36:13.510] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / minecraft:the_nether] with concurrent set.
+[11Dec2024 00:36:13.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[11Dec2024 00:36:28.379] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Dec2024 00:36:28.606] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Dec2024 00:36:28.652] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Dec2024 00:36:28.807] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Dec2024 00:36:28.933] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Dec2024 00:36:29.230] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Dec2024 00:36:29.314] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Dec2024 00:36:29.443] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Dec2024 00:36:29.541] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Dec2024 00:36:29.542] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Dec2024 00:36:29.542] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Dec2024 00:36:29.543] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Dec2024 00:36:29.544] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Dec2024 00:36:29.545] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Dec2024 00:36:29.546] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Dec2024 00:36:29.550] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Dec2024 00:36:29.551] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Dec2024 00:36:29.553] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Dec2024 00:36:29.557] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Dec2024 00:36:29.560] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Dec2024 00:36:29.561] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Dec2024 00:36:29.646] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Dec2024 00:36:29.674] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Dec2024 00:36:29.676] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Dec2024 00:36:29.679] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Dec2024 00:36:29.680] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Dec2024 00:36:29.682] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Dec2024 00:36:29.683] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Dec2024 00:36:29.684] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Dec2024 00:36:29.685] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Dec2024 00:36:29.727] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Dec2024 00:36:29.735] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Dec2024 00:36:29.737] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Dec2024 00:36:30.023] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Dec2024 00:36:30.553] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Dec2024 00:36:31.025] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Dec2024 00:36:31.516] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Dec2024 00:36:32.017] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Dec2024 00:36:32.519] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Dec2024 00:36:33.016] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Dec2024 00:36:33.655] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[11Dec2024 00:36:34.294] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 20779 ms
+[11Dec2024 00:36:34.298] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (57.136s)! For help, type "help"
+[11Dec2024 00:36:34.497] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[11Dec2024 00:36:40.581] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[11Dec2024 00:36:40.583] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[11Dec2024 00:36:49.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[11Dec2024 00:36:49.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[11Dec2024 00:36:49.942] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[11Dec2024 00:36:49.942] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[11Dec2024 00:36:50.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:overworld
+[11Dec2024 00:36:51.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_end
+[11Dec2024 00:36:51.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_nether
+[11Dec2024 00:36:51.172] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11Dec2024 00:36:51.172] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11Dec2024 00:36:51.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11Dec2024 00:36:51.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[11Dec2024 00:36:51.207] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
